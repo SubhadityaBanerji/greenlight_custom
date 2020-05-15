@@ -1,0 +1,1078 @@
+INFO: [ed974ac0-5d29-4292-89b2-183d9a99b812] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=278.25 view=245.99 db=8.62 host=greenlight 
+INFO: [ea69576e-695f-459c-a2fd-f173bbd58b48] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=284.75 view=245.24 db=9.56 host=greenlight 
+INFO: [ebaf02c1-a0f8-41e6-8a3f-ee1c727ce494] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.42 view=12.53 db=0.61 host=greenlight 
+INFO: [9b9ae223-aa1e-4672-8bd5-57a76a0e9c74] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=278.14 view=246.28 db=8.60 host=greenlight 
+INFO: [c2803c59-98a4-496e-978e-cdc8595bb2d1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=277.23 view=246.03 db=8.49 host=greenlight 
+INFO: [054a95b2-223a-4c96-9fdf-3418c0d61341] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=22.17 view=17.25 db=0.61 host=greenlight 
+INFO: [d477d1ad-0920-4de1-b446-8778d4faa41d] method=GET path=/b/signup format=html controller=SessionsController action=new status=200 duration=37.23 view=16.38 db=3.35 host=greenlight 
+INFO: [527ab854-fb82-42ee-8179-6516de394fd4] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=85.54 view=0.00 db=8.69 host=greenlight 
+FATAL: [527ab854-fb82-42ee-8179-6516de394fd4]    
+FATAL: [527ab854-fb82-42ee-8179-6516de394fd4] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [527ab854-fb82-42ee-8179-6516de394fd4]     17:   <div class="container pt-9 pb-8">
+[527ab854-fb82-42ee-8179-6516de394fd4]     18:     <div class="row">
+[527ab854-fb82-42ee-8179-6516de394fd4]     19:       <div class="col-md-12 col-sm-12 text-center">
+[527ab854-fb82-42ee-8179-6516de394fd4]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[527ab854-fb82-42ee-8179-6516de394fd4]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[527ab854-fb82-42ee-8179-6516de394fd4]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[527ab854-fb82-42ee-8179-6516de394fd4]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [527ab854-fb82-42ee-8179-6516de394fd4]    
+FATAL: [527ab854-fb82-42ee-8179-6516de394fd4] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [527ab854-fb82-42ee-8179-6516de394fd4] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=9.84 view=0.00 db=0.05 host=greenlight 
+INFO: [945d88ad-e77d-4c14-9a66-429f80f12186] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=12.92 view=0.00 db=0.79 host=greenlight 
+FATAL: [945d88ad-e77d-4c14-9a66-429f80f12186]    
+FATAL: [945d88ad-e77d-4c14-9a66-429f80f12186] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [945d88ad-e77d-4c14-9a66-429f80f12186]     17:   <div class="container pt-9 pb-8">
+[945d88ad-e77d-4c14-9a66-429f80f12186]     18:     <div class="row">
+[945d88ad-e77d-4c14-9a66-429f80f12186]     19:       <div class="col-md-12 col-sm-12 text-center">
+[945d88ad-e77d-4c14-9a66-429f80f12186]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[945d88ad-e77d-4c14-9a66-429f80f12186]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[945d88ad-e77d-4c14-9a66-429f80f12186]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[945d88ad-e77d-4c14-9a66-429f80f12186]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [945d88ad-e77d-4c14-9a66-429f80f12186]    
+FATAL: [945d88ad-e77d-4c14-9a66-429f80f12186] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [945d88ad-e77d-4c14-9a66-429f80f12186] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=10.24 view=0.00 db=0.04 host=greenlight 
+INFO: [f6cd54a9-32af-4b03-b521-e40d199d9352] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=18.34 view=0.00 db=0.58 host=greenlight 
+FATAL: [f6cd54a9-32af-4b03-b521-e40d199d9352]    
+FATAL: [f6cd54a9-32af-4b03-b521-e40d199d9352] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [f6cd54a9-32af-4b03-b521-e40d199d9352]     17:   <div class="container pt-9 pb-8">
+[f6cd54a9-32af-4b03-b521-e40d199d9352]     18:     <div class="row">
+[f6cd54a9-32af-4b03-b521-e40d199d9352]     19:       <div class="col-md-12 col-sm-12 text-center">
+[f6cd54a9-32af-4b03-b521-e40d199d9352]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[f6cd54a9-32af-4b03-b521-e40d199d9352]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[f6cd54a9-32af-4b03-b521-e40d199d9352]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[f6cd54a9-32af-4b03-b521-e40d199d9352]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [f6cd54a9-32af-4b03-b521-e40d199d9352]    
+FATAL: [f6cd54a9-32af-4b03-b521-e40d199d9352] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [f6cd54a9-32af-4b03-b521-e40d199d9352] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=9.68 view=0.00 db=0.05 host=greenlight 
+INFO: [8155f82b-0226-4324-88d6-cdcee27ec86c] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=12.79 view=0.00 db=0.59 host=greenlight 
+FATAL: [8155f82b-0226-4324-88d6-cdcee27ec86c]    
+FATAL: [8155f82b-0226-4324-88d6-cdcee27ec86c] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [8155f82b-0226-4324-88d6-cdcee27ec86c]     17:   <div class="container pt-9 pb-8">
+[8155f82b-0226-4324-88d6-cdcee27ec86c]     18:     <div class="row">
+[8155f82b-0226-4324-88d6-cdcee27ec86c]     19:       <div class="col-md-12 col-sm-12 text-center">
+[8155f82b-0226-4324-88d6-cdcee27ec86c]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[8155f82b-0226-4324-88d6-cdcee27ec86c]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[8155f82b-0226-4324-88d6-cdcee27ec86c]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[8155f82b-0226-4324-88d6-cdcee27ec86c]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [8155f82b-0226-4324-88d6-cdcee27ec86c]    
+FATAL: [8155f82b-0226-4324-88d6-cdcee27ec86c] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [8155f82b-0226-4324-88d6-cdcee27ec86c] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=9.52 view=0.00 db=0.05 host=greenlight 
+INFO: [ea276140-6a7c-40ee-9d07-e747d293cb03] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=13.29 view=0.00 db=0.78 host=greenlight 
+FATAL: [ea276140-6a7c-40ee-9d07-e747d293cb03]    
+FATAL: [ea276140-6a7c-40ee-9d07-e747d293cb03] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [ea276140-6a7c-40ee-9d07-e747d293cb03]     17:   <div class="container pt-9 pb-8">
+[ea276140-6a7c-40ee-9d07-e747d293cb03]     18:     <div class="row">
+[ea276140-6a7c-40ee-9d07-e747d293cb03]     19:       <div class="col-md-12 col-sm-12 text-center">
+[ea276140-6a7c-40ee-9d07-e747d293cb03]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[ea276140-6a7c-40ee-9d07-e747d293cb03]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[ea276140-6a7c-40ee-9d07-e747d293cb03]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[ea276140-6a7c-40ee-9d07-e747d293cb03]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [ea276140-6a7c-40ee-9d07-e747d293cb03]    
+FATAL: [ea276140-6a7c-40ee-9d07-e747d293cb03] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [ea276140-6a7c-40ee-9d07-e747d293cb03] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=9.38 view=0.00 db=0.05 host=greenlight 
+INFO: [86f7f732-db1c-49f6-98d4-cd2081811a1a] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=13.45 view=0.00 db=0.63 host=greenlight 
+FATAL: [86f7f732-db1c-49f6-98d4-cd2081811a1a]    
+FATAL: [86f7f732-db1c-49f6-98d4-cd2081811a1a] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [86f7f732-db1c-49f6-98d4-cd2081811a1a]     17:   <div class="container pt-9 pb-8">
+[86f7f732-db1c-49f6-98d4-cd2081811a1a]     18:     <div class="row">
+[86f7f732-db1c-49f6-98d4-cd2081811a1a]     19:       <div class="col-md-12 col-sm-12 text-center">
+[86f7f732-db1c-49f6-98d4-cd2081811a1a]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[86f7f732-db1c-49f6-98d4-cd2081811a1a]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[86f7f732-db1c-49f6-98d4-cd2081811a1a]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[86f7f732-db1c-49f6-98d4-cd2081811a1a]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [86f7f732-db1c-49f6-98d4-cd2081811a1a]    
+FATAL: [86f7f732-db1c-49f6-98d4-cd2081811a1a] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [86f7f732-db1c-49f6-98d4-cd2081811a1a] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=10.80 view=0.00 db=0.05 host=greenlight 
+INFO: [41a6f04f-9827-4a0b-b840-6e4cb9668df0] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=17.66 view=0.00 db=0.57 host=greenlight 
+FATAL: [41a6f04f-9827-4a0b-b840-6e4cb9668df0]    
+FATAL: [41a6f04f-9827-4a0b-b840-6e4cb9668df0] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [41a6f04f-9827-4a0b-b840-6e4cb9668df0]     17:   <div class="container pt-9 pb-8">
+[41a6f04f-9827-4a0b-b840-6e4cb9668df0]     18:     <div class="row">
+[41a6f04f-9827-4a0b-b840-6e4cb9668df0]     19:       <div class="col-md-12 col-sm-12 text-center">
+[41a6f04f-9827-4a0b-b840-6e4cb9668df0]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[41a6f04f-9827-4a0b-b840-6e4cb9668df0]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[41a6f04f-9827-4a0b-b840-6e4cb9668df0]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[41a6f04f-9827-4a0b-b840-6e4cb9668df0]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [41a6f04f-9827-4a0b-b840-6e4cb9668df0]    
+FATAL: [41a6f04f-9827-4a0b-b840-6e4cb9668df0] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [41a6f04f-9827-4a0b-b840-6e4cb9668df0] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=9.90 view=0.00 db=0.05 host=greenlight 
+INFO: [eb2d33a9-b838-4eb1-a126-153abdaed648] method=GET path=/b/ format=html controller=MainController action=index status=500 error='ActionView::Template::Error: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=13.10 view=0.00 db=0.60 host=greenlight 
+FATAL: [eb2d33a9-b838-4eb1-a126-153abdaed648]    
+FATAL: [eb2d33a9-b838-4eb1-a126-153abdaed648] ActionView::Template::Error (can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>): 
+FATAL: [eb2d33a9-b838-4eb1-a126-153abdaed648]     17:   <div class="container pt-9 pb-8">
+[eb2d33a9-b838-4eb1-a126-153abdaed648]     18:     <div class="row">
+[eb2d33a9-b838-4eb1-a126-153abdaed648]     19:       <div class="col-md-12 col-sm-12 text-center">
+[eb2d33a9-b838-4eb1-a126-153abdaed648]     20:         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
+[eb2d33a9-b838-4eb1-a126-153abdaed648]     21:         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
+[eb2d33a9-b838-4eb1-a126-153abdaed648]     22:         <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
+[eb2d33a9-b838-4eb1-a126-153abdaed648]     23:           <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4> 
+FATAL: [eb2d33a9-b838-4eb1-a126-153abdaed648]    
+FATAL: [eb2d33a9-b838-4eb1-a126-153abdaed648] app/views/main/index.html.erb:20:in `_app_views_main_index_html_erb___2687518061314722466_47033412930480' 
+INFO: [eb2d33a9-b838-4eb1-a126-153abdaed648] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='I18n::InvalidLocaleData: can not load translations from /usr/src/app/config/locales/en.yml: #<Psych::SyntaxError: (<unknown>): found character that cannot start any token while scanning for the next token at line 306 column 20>' duration=9.95 view=0.00 db=0.05 host=greenlight 
+INFO: [437055ca-ebe8-40f3-acf3-521878b7d401] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=280.82 view=247.22 db=9.32 host=greenlight 
+INFO: [2c4247e7-ecb9-49bb-bf11-400dedde84cf] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=278.38 view=245.81 db=8.66 host=greenlight 
+INFO: [74a84120-1552-4136-9519-4278b8a1768f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=347.26 view=314.72 db=8.72 host=greenlight 
+INFO: [59b54648-4b66-4f68-a7cf-aaf2b0354030] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.27 view=19.25 db=0.66 host=greenlight 
+INFO: [3dc2fb85-e516-47bf-a30b-9af5d353fc8f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=349.39 view=316.72 db=8.91 host=greenlight 
+INFO: [958bfeee-cfa2-4c90-bad2-ed2b7b0e5b6f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=297.31 view=251.83 db=9.47 host=greenlight 
+INFO: [8d875808-7a28-4ee4-b5d6-cee285498ee0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.96 view=12.38 db=0.61 host=greenlight 
+INFO: [1f7ac774-b070-451d-bb59-6e1b0c4614f5] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=276.58 view=242.95 db=9.39 host=greenlight 
+INFO: [c0d6ace6-651a-43ae-9647-4c0966ece3da] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=282.18 view=244.05 db=8.91 host=greenlight 
+INFO: [120c05fe-14c9-4b11-9523-f1b14a658cfe] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=280.75 view=243.49 db=8.65 host=greenlight 
+INFO: [9598ee5b-5a0d-4158-a9aa-706231a4a3cd] method=GET path=/b/signup format=html controller=SessionsController action=new status=200 duration=33.20 view=15.96 db=1.94 host=greenlight 
+INFO: [fd8a1f1f-cca5-4a78-ad6c-58b225ff4b5f] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=21.38 view=15.29 db=0.76 host=greenlight 
+INFO: [fe755f70-9a18-4727-996c-bf7180f8dda9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.05 view=19.11 db=0.62 host=greenlight 
+INFO: [a21958c3-15c6-419e-a063-112859de049a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=278.78 view=245.51 db=9.36 host=greenlight 
+INFO: [2fda0a6a-867c-421b-81c7-aa7ca8ef3cd8] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=21.86 view=15.35 db=0.84 host=greenlight 
+INFO: [09e8ba48-9686-41d7-b334-9f5062ea0729] method=GET path=/b/signup format=html controller=SessionsController action=new status=200 duration=32.37 view=15.03 db=1.90 host=greenlight 
+INFO: [0db90c11-707e-4b6d-b475-de56ebb37113] method=GET path=/b/signin format=html controller=SessionsController action=signin status=302 duration=254.70 view=0.00 db=7.46 location=http://webinar.gnitdigiconclave.com/b/adm-rct-x2p host=greenlight 
+INFO: [c860db1f-d8e6-44f5-8f00-96ee36ee2d3e] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=328.20 view=31.62 db=8.14 host=greenlight 
+INFO: [15c7984a-113b-48b1-a1b2-672d32f7a8a7] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=17.73 view=13.09 db=0.54 host=greenlight 
+INFO: [f179be40-c4a6-41f9-8ec3-9d691b305ee4] Support: admin@example.com is attempting to login. 
+INFO: [f179be40-c4a6-41f9-8ec3-9d691b305ee4] Support: admin@example.com has successfully logged in. 
+INFO: [f179be40-c4a6-41f9-8ec3-9d691b305ee4] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=230.04 view=0.00 db=1.62 location=http://webinar.gnitdigiconclave.com/b/signup/ host=greenlight 
+INFO: [1dce7dbe-ca06-4af0-bb35-c4b705d88194] method=GET path=/b/signup format=html controller=SessionsController action=new status=302 duration=226.49 view=0.00 db=1.25 location=http://webinar.gnitdigiconclave.com/b/adm-rct-x2p host=greenlight 
+INFO: [347f2b00-19cf-45bf-b856-fca4f95b642f] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=285.13 view=19.82 db=5.93 host=greenlight 
+INFO: [5a885ee5-467f-42b0-820c-0b90bdacfff8] method=GET path=/b/admins format=html controller=AdminsController action=index status=200 duration=263.28 view=25.04 db=5.90 host=greenlight 
+INFO: [25ac603a-72c8-48bc-9ed8-bdf663a5c83d] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=262.14 view=17.39 db=1.49 host=greenlight 
+INFO: [0059af08-a70a-4cdb-b02a-3b3cb1c1a3b7] method=GET path=/b/admins/site_settings format=html controller=AdminsController action=site_settings status=200 duration=258.44 view=27.59 db=3.76 host=greenlight 
+INFO: [3105a2fc-4aa2-4c91-9f6d-6778649b8e00] method=GET path=/b/admins/room_configuration format=html controller=AdminsController action=room_configuration status=200 duration=244.86 view=17.51 db=1.12 host=greenlight 
+INFO: [5e1d9a4b-2ad8-4e9d-b34c-d3bbe78aa907] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=254.07 view=13.33 db=1.43 host=greenlight 
+INFO: [dec3bc0e-20bc-47fc-b257-6a6152d4cb85] method=GET path=/b/admins/rooms format=html controller=AdminsController action=server_rooms status=200 duration=325.67 view=34.49 db=6.66 host=greenlight 
+INFO: [7c124801-3006-456c-b21f-6b1ca0c9cccf] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=254.80 view=12.59 db=1.44 host=greenlight 
+INFO: [71597f04-1087-4ff5-b0d9-211278063a46] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=288.44 view=16.35 db=7.01 host=greenlight 
+INFO: [acd258f3-95e6-4148-a68b-dac7c82d4d05] Support: admin@example.com has created a new room adm-huf-2ya. 
+INFO: [acd258f3-95e6-4148-a68b-dac7c82d4d05] method=POST path=/b/ format=html controller=RoomsController action=create status=302 duration=292.67 view=0.00 db=3.31 location=http://webinar.gnitdigiconclave.com/b/adm-huf-2ya host=greenlight 
+INFO: [2b69facc-fe59-4f31-bfc9-9a8d6d3d0889] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=302.99 view=35.51 db=5.38 host=greenlight 
+INFO: [003c8220-614c-444d-9c91-6d920f83b885] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=318.76 view=47.87 db=5.48 host=greenlight 
+INFO: [5ec1a92f-a57a-4c84-9101-bcd96cab3650] method=GET path=/b/u/logout format=html controller=SessionsController action=destroy status=302 duration=226.38 view=0.00 db=1.47 location=http://webinar.gnitdigiconclave.com/b/ host=greenlight 
+INFO: [3f596147-eaa1-4b0e-9061-69b314210fd5] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.13 view=11.74 db=0.56 host=greenlight 
+INFO: [bffbacb4-4fb7-48d1-b0dd-e3394d7ba04b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=53.09 view=18.04 db=1.59 host=greenlight 
+INFO: [27d3759e-3e8e-4dbb-a154-60bbd1df7260] Support: Subhaditya Banerji is joining room adm-huf-2ya 
+INFO: [40ee51e7-ec04-4f34-8e37-132b2197784f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=36.13 view=18.75 db=6.09 host=greenlight 
+INFO: [9c114a34-ee89-44b5-b060-87c8fbee712c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.49 view=11.77 db=0.78 host=greenlight 
+INFO: [27d3759e-3e8e-4dbb-a154-60bbd1df7260] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=1266.99 view=0.00 db=2.94 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [a31bf509-ee1e-4bef-8642-574d3bfdeb3a] method=GET path=/b/u/logout format=html controller=SessionsController action=destroy status=302 duration=4.90 view=0.00 db=0.45 location=http://webinar.gnitdigiconclave.com/b/ host=greenlight 
+INFO: [6ebb080a-f91a-4d5d-8f7d-151df8720f53] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.76 view=11.91 db=0.61 host=greenlight 
+INFO: [6feac963-5400-4c8a-9102-67a1f165b546] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=20.63 view=15.37 db=0.61 host=greenlight 
+INFO: [cf857aec-bdc4-4334-baf6-55c3ab925290] Support: admin@example.com is attempting to login. 
+INFO: [cf857aec-bdc4-4334-baf6-55c3ab925290] Support: admin@example.com has successfully logged in. 
+INFO: [cf857aec-bdc4-4334-baf6-55c3ab925290] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=231.92 view=0.00 db=1.86 location=http://webinar.gnitdigiconclave.com/b/adm-rct-x2p host=greenlight 
+INFO: [4c96e9fa-526b-440d-b9d3-18373ca6a398] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=325.17 view=17.10 db=6.58 host=greenlight 
+INFO: [ea9b4a26-c4e7-4676-90a6-464538338573] Support: admin@example.com is starting room adm-rct-x2p 
+INFO: [821ab0c6-ef27-457c-9ffd-ad8db80b1a01] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.26 view=17.35 db=1.03 host=greenlight 
+INFO: [b5c3e6a5-b3c4-467c-a81d-d8c46921ff0f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.76 view=11.85 db=0.78 host=greenlight 
+INFO: [ea9b4a26-c4e7-4676-90a6-464538338573] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: e25ada2d-3d82-4862-9a7f-fe7c11b4700a) to Async(default) at 2020-05-14 12:41:02 UTC with arguments: #<GlobalID:0x0000562b9e55c858 @uri=#<URI::GID gid://greenlight/Room/1>> 
+INFO: [ea9b4a26-c4e7-4676-90a6-464538338573] method=POST path=/b/adm-rct-x2p/start format=html controller=RoomsController action=start status=302 duration=414.89 view=0.00 db=3.34 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [e25ada2d-3d82-4862-9a7f-fe7c11b4700a] Performing NotifyUserWaitingJob (Job ID: e25ada2d-3d82-4862-9a7f-fe7c11b4700a) from Async(default) with arguments: #<GlobalID:0x0000562b9e5fb0c0 @uri=#<URI::GID gid://greenlight/Room/1>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [e25ada2d-3d82-4862-9a7f-fe7c11b4700a] Performed NotifyUserWaitingJob (Job ID: e25ada2d-3d82-4862-9a7f-fe7c11b4700a) from Async(default) in 3.64ms 
+INFO: [32e79ca6-e5db-4f57-9864-3f1318a6e38c] method=GET path=/b/u/gl-ftpjwkkusrgd/edit format=html controller=UsersController action=edit status=200 duration=274.77 view=44.27 db=2.62 host=greenlight 
+INFO: [10deca14-801e-4f89-94b3-93982bbea747] method=GET path=/b/u/gl-ftpjwkkusrgd/edit format=html controller=UsersController action=edit status=200 duration=280.10 view=44.22 db=2.75 host=greenlight 
+INFO: [385b2872-80f5-43ff-80cd-fc1fb905fabc] method=GET path=/b/admins format=html controller=AdminsController action=index status=200 duration=252.10 view=14.80 db=6.41 host=greenlight 
+INFO: [423d9970-0b5e-4ad8-aad4-5a738f1b5c18] method=GET path=/b/admins/site_settings format=html controller=AdminsController action=site_settings status=200 duration=241.95 view=15.59 db=1.15 host=greenlight 
+INFO: [52069323-8316-4ebc-9088-1d1898798e15] method=GET path=/b/admins/rooms format=html controller=AdminsController action=server_rooms status=200 duration=296.86 view=16.08 db=4.59 host=greenlight 
+INFO: [adc35e03-aa91-4aca-b384-87116a01fb61] method=GET path=/b/adm-rct-x2p/room_settings format=*/* controller=RoomsController action=room_settings status=200 duration=228.05 view=0.16 db=1.49 host=greenlight 
+INFO: [8908c016-1b11-41f3-91a6-8fd67d77d6f4] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=258.22 view=17.67 db=1.47 host=greenlight 
+INFO: [6e5b1bb4-3017-4dc5-aae8-43501a2c1fd1] method=GET path=/b/admins/site_settings format=html controller=AdminsController action=site_settings status=200 duration=242.74 view=15.18 db=1.44 host=greenlight 
+INFO: [7f8e8c8c-b662-48a1-9b2f-9889e5dee311] method=POST path=/b/admins/registration_method format=html controller=AdminsController action=registration_method status=302 duration=229.71 view=0.00 db=2.30 location=http://webinar.gnitdigiconclave.com/b/admins/site_settings host=greenlight 
+INFO: [8f07e3cc-3ef4-455d-a404-305c3e7644e6] method=GET path=/b/admins/site_settings format=html controller=AdminsController action=site_settings status=200 duration=242.07 view=14.70 db=1.47 host=greenlight 
+INFO: [713bb0e8-6474-44aa-8041-6065588743de] method=POST path=/b/admins/update_settings format=html controller=AdminsController action=update_settings status=302 duration=231.08 view=0.00 db=2.83 location=http://webinar.gnitdigiconclave.com/b/admins/site_settings host=greenlight 
+INFO: [afd3098d-4435-472e-aade-186df0ec9125] method=GET path=/b/admins/site_settings format=html controller=AdminsController action=site_settings status=200 duration=241.72 view=15.00 db=1.48 host=greenlight 
+INFO: [a630029c-da00-48a0-a43a-034764bd3a17] method=GET path=/b/admins/rooms format=html controller=AdminsController action=server_rooms status=200 duration=291.87 view=16.08 db=4.77 host=greenlight 
+INFO: [b1df5de1-092c-43a3-a43a-c533e8f7fbb0] method=GET path=/b/adm-rct-x2p/room_settings format=*/* controller=RoomsController action=room_settings status=200 duration=228.05 view=0.17 db=1.57 host=greenlight 
+INFO: [6eb57353-dc01-4a8d-ab79-ba051fbab2a0] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=277.45 view=16.89 db=5.45 host=greenlight 
+INFO: [f77b6499-d471-47a8-a521-52ad0391bb1d] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=283.68 view=16.86 db=5.51 host=greenlight 
+INFO: [16d57520-8ed9-4b77-93e1-b28d3f02ec41] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=276.23 view=16.39 db=5.56 host=greenlight 
+INFO: [b17682be-f3f2-4b93-b8ab-f2e5bc7848d6] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=282.56 view=16.48 db=5.76 host=greenlight 
+INFO: [c0665895-ae39-4df0-a0ad-675d72a3d0a1] Support: admin@example.com is starting room adm-rct-x2p 
+INFO: [aed091d9-4eb4-4f15-9d56-dcc9c3283452] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=38.32 view=21.20 db=6.98 host=greenlight 
+INFO: [d9bf96db-530e-4a8f-8e97-9e3a758d50da] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.07 view=12.40 db=0.77 host=greenlight 
+INFO: [c0665895-ae39-4df0-a0ad-675d72a3d0a1] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 0690d3b8-2c3d-420c-af4a-55cf16633ad2) to Async(default) at 2020-05-14 12:46:37 UTC with arguments: #<GlobalID:0x0000562b9d42a238 @uri=#<URI::GID gid://greenlight/Room/1>> 
+INFO: [c0665895-ae39-4df0-a0ad-675d72a3d0a1] method=POST path=/b/adm-rct-x2p/start format=html controller=RoomsController action=start status=302 duration=396.72 view=0.00 db=2.72 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [0690d3b8-2c3d-420c-af4a-55cf16633ad2] Performing NotifyUserWaitingJob (Job ID: 0690d3b8-2c3d-420c-af4a-55cf16633ad2) from Async(default) with arguments: #<GlobalID:0x0000562b9d3fac40 @uri=#<URI::GID gid://greenlight/Room/1>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [0690d3b8-2c3d-420c-af4a-55cf16633ad2] Performed NotifyUserWaitingJob (Job ID: 0690d3b8-2c3d-420c-af4a-55cf16633ad2) from Async(default) in 0.17ms 
+INFO: [1597ed6e-cf1a-4688-8a66-5bbe460f77ef] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.66 view=16.32 db=0.48 host=greenlight 
+INFO: [a406b319-0406-4536-9691-de14e45f530d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=249.10 view=10.90 db=5.34 host=greenlight 
+INFO: [3616bdb9-47ae-4771-af7f-1122d1873c7c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.94 view=11.56 db=0.81 host=greenlight 
+INFO: [6bd67fbc-00d4-469c-ac64-76b544362f78] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.88 view=12.45 db=0.62 host=greenlight 
+INFO: [a6ff6a12-6500-45b0-9434-9f4fc5b9b918] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=277.74 view=17.71 db=7.01 host=greenlight 
+INFO: [b6e330f0-8daf-41b6-85ef-cd7cd8209aa7] Support: admin@example.com is joining room adm-rct-x2p 
+INFO: [b6e330f0-8daf-41b6-85ef-cd7cd8209aa7] method=POST path=/b/adm-rct-x2p format=html controller=RoomsController action=join status=302 duration=271.49 view=0.00 db=2.99 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [56dab267-c0ff-4ac4-9665-455bd0cebc65] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.56 view=12.50 db=0.56 host=greenlight 
+INFO: [0a1c9ec4-949e-4762-9685-8fca1be1eb81] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.55 view=15.93 db=0.53 host=greenlight 
+INFO: [5a58f1f2-b06e-4fdb-824e-9b00f5c1ba97] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.08 view=11.37 db=0.69 host=greenlight 
+INFO: [2915dc4e-ea02-4c10-99eb-b77ecec38a09] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.87 view=11.61 db=0.56 host=greenlight 
+INFO: [5ed6cf17-e1ad-4e36-96b9-3ebcca636a79] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=25.91 view=12.71 db=4.24 host=greenlight 
+INFO: [a7bd6628-0bb8-4431-96bc-995be4a847f1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.89 view=11.94 db=0.77 host=greenlight 
+INFO: [1d0361a9-bc6f-4778-93fa-db5060c04de0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.38 view=12.58 db=0.79 host=greenlight 
+INFO: [bbf93d97-7567-4f95-91c8-02c775cfabb2] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.66 view=11.78 db=0.82 host=greenlight 
+INFO: [024dca4e-66d4-4af7-b718-03500afb6934] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=251.01 view=14.67 db=5.37 host=greenlight 
+INFO: [3f56121a-43fd-4fd2-b912-b3b1595adce4] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=298.36 view=16.92 db=8.93 host=greenlight 
+INFO: [9a68d3e5-9a8b-4f30-8d8c-71df2109dede] Support: admin@example.com is joining room adm-rct-x2p 
+INFO: [9a68d3e5-9a8b-4f30-8d8c-71df2109dede] method=POST path=/b/adm-rct-x2p format=html controller=RoomsController action=join status=302 duration=266.49 view=0.00 db=3.31 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [3a360bcc-c166-4c77-86f5-59fc4cb4356c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.30 view=11.28 db=1.88 host=greenlight 
+INFO: [fa1f4176-e10c-4671-b6b7-d0ea2143d69d] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=305.41 view=16.65 db=10.53 host=greenlight 
+INFO: [92c90280-d016-41e4-85a8-43bee5577d3e] method=GET path=/b/u/gl-ftpjwkkusrgd/recordings format=html controller=UsersController action=recordings status=200 duration=249.43 view=12.08 db=2.11 host=greenlight 
+INFO: [b346b405-aa06-4b50-be08-faa141c1e790] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=274.58 view=20.03 db=5.75 host=greenlight 
+INFO: [9cd957d2-f4e4-4162-851d-d7a8524cb502] Support: admin@example.com is joining room adm-rct-x2p 
+INFO: [9cd957d2-f4e4-4162-851d-d7a8524cb502] method=POST path=/b/adm-rct-x2p format=html controller=RoomsController action=join status=302 duration=263.94 view=0.00 db=2.54 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [86b959b2-fb40-4b4c-b95f-34670ca8a75c] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=272.06 view=16.69 db=6.44 host=greenlight 
+INFO: [8c7d1716-0bbf-4147-a495-0fac16473512] method=GET path=/b/u/logout format=html controller=SessionsController action=destroy status=302 duration=227.81 view=0.00 db=1.39 location=https://webinar.gnitdigiconclave.com/b/ host=greenlight 
+INFO: [30ee81cc-f1c4-4707-baa0-8e8d874e4e84] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.07 view=11.60 db=0.49 host=greenlight 
+INFO: [f30c3ebd-a273-4b51-a0fe-1ec608d6bffa] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.35 view=12.51 db=0.59 host=greenlight 
+INFO: [87483467-8bbe-428e-9dc7-c2104b6e129f] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=17.28 view=12.14 db=0.72 host=greenlight 
+INFO: [44e393c1-83f6-44e9-b37a-b3f7cea8f861] Support: admin@example.com is attempting to login. 
+INFO: [44e393c1-83f6-44e9-b37a-b3f7cea8f861] Support: admin@example.com has successfully logged in. 
+INFO: [44e393c1-83f6-44e9-b37a-b3f7cea8f861] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=231.46 view=0.00 db=1.97 location=https://webinar.gnitdigiconclave.com/b/adm-rct-x2p host=greenlight 
+INFO: [ab2b95d1-b028-49d8-8657-2eab08cbeeb5] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=276.36 view=20.79 db=6.32 host=greenlight 
+INFO: [232db716-2250-47d0-8cad-4a8c2b367a4e] Support: admin@example.com is joining room adm-rct-x2p 
+INFO: [232db716-2250-47d0-8cad-4a8c2b367a4e] method=POST path=/b/adm-rct-x2p format=html controller=RoomsController action=join status=302 duration=257.83 view=0.00 db=2.27 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [e3d42766-de51-4cb4-8918-4d26b116d8ef] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=272.65 view=16.76 db=5.36 host=greenlight 
+INFO: [287ef5c1-676e-4f43-b1ff-89f1a7fe1132] method=GET path=/b/admins format=html controller=AdminsController action=index status=200 duration=256.76 view=14.98 db=5.89 host=greenlight 
+INFO: [75e8e23b-ba04-4575-ad14-c1b6c49fbbf1] method=GET path=/b/admins/rooms format=html controller=AdminsController action=server_rooms status=200 duration=264.27 view=16.59 db=4.66 host=greenlight 
+INFO: [ab1b815e-308a-4a76-a515-05ba9416518f] method=GET path=/b/adm-huf-2ya/room_settings format=*/* controller=RoomsController action=room_settings status=200 duration=229.51 view=0.25 db=1.95 host=greenlight 
+INFO: [0f5cbc5e-15f0-4470-82f9-dfe4fa8914e8] method=GET path=/b/u/gl-ftpjwkkusrgd/edit format=html controller=UsersController action=edit status=200 duration=275.90 view=45.83 db=3.32 host=greenlight 
+INFO: [a7fd3562-f18f-477c-981d-eec3c924d1d4] method=PATCH path=/b/u/gl-ftpjwkkusrgd/edit format=html controller=UsersController action=update status=302 duration=237.19 view=0.00 db=5.11 location=https://webinar.gnitdigiconclave.com/b/u/gl-ftpjwkkusrgd/edit host=greenlight 
+INFO: [d50e182a-6525-41ef-b387-fa88e6203fd9] method=GET path=/b/u/gl-ftpjwkkusrgd/edit format=html controller=UsersController action=edit status=200 duration=50.10 view=39.65 db=4.48 host=greenlight 
+INFO: [7a17227b-5126-4d0e-a667-189e32217638] method=GET path=/b/adm-rct-x2p format=html controller=RoomsController action=show status=200 duration=52.86 view=21.45 db=5.00 host=greenlight 
+INFO: [c0be6b13-e895-4eff-8c99-1c78bd64e12d] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=50.31 view=16.61 db=4.85 host=greenlight 
+INFO: [05f3d982-4ede-4ce5-a1ab-53af498cff1f] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=49.08 view=17.61 db=4.99 host=greenlight 
+INFO: [d0a7693c-832d-4e83-b8f5-ddac613d489f] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=48.73 view=17.11 db=5.16 host=greenlight 
+INFO: [520751c8-835c-45b1-ae3b-b4d0d11ab04b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=40.19 view=14.70 db=1.58 host=greenlight 
+INFO: [8151f4f0-06aa-4732-9b2a-f0d28f4f1845] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.94 view=15.62 db=0.59 host=greenlight 
+INFO: [46f4bbdd-a040-4934-97c4-2a832de91933] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=38.96 view=13.67 db=1.14 host=greenlight 
+INFO: [6c24d534-fdcb-49e7-bbe7-e4c9c38c7fdb] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=38.10 view=13.37 db=1.16 host=greenlight 
+INFO: [45c269bd-2f21-4ed5-a11e-2d625f6342ef] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.02 view=12.55 db=0.44 host=greenlight 
+INFO: [4340a8ad-6460-4645-8571-ff65932b5862] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.54 view=12.33 db=0.44 host=greenlight 
+INFO: [b7d9a408-1684-4b73-8176-d3f6d6204db7] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [851d14c9-2e89-4b51-ba18-bc947e3c0d9b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=35.33 view=17.44 db=6.04 host=greenlight 
+INFO: [9cc90dca-3a8c-4315-a6b6-6564bc0353b1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.95 view=11.96 db=0.65 host=greenlight 
+INFO: [b7d9a408-1684-4b73-8176-d3f6d6204db7] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=159.37 view=0.00 db=2.40 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [82c8fab8-8b4f-473f-8a05-cba45248e095] Support: Somnath Nath is joining room adm-huf-2ya 
+INFO: [82c8fab8-8b4f-473f-8a05-cba45248e095] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=40.72 view=0.00 db=1.56 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [07442744-80de-471d-bad8-2da41a39649e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.24 view=11.43 db=0.58 host=greenlight 
+INFO: [4e448669-1287-4939-8959-c8f70e3ba99e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.53 view=11.96 db=0.48 host=greenlight 
+INFO: [669dec79-3384-4bd9-b0ab-d780f94092eb] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=40.55 view=14.73 db=1.18 host=greenlight 
+INFO: [2830bc4d-ed7c-4ffd-b489-a21028d935f5] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.86 view=15.60 db=0.62 host=greenlight 
+INFO: [706f93b2-620e-4d65-b4c0-0cde0e6ecb00] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=43.68 view=14.99 db=1.48 host=greenlight 
+INFO: [ce03c384-10ee-4352-99bf-634aba78affc] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.87 view=13.28 db=0.47 host=greenlight 
+INFO: [caff7c31-00d5-4af9-91e2-c403b0793ea7] Support: SUBHADITYA  is joining room adm-huf-2ya 
+INFO: [caff7c31-00d5-4af9-91e2-c403b0793ea7] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=44.35 view=0.00 db=1.50 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [fd6ede3d-90dd-49e5-991e-0b9d791efec0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=21.88 view=15.07 db=0.74 host=greenlight 
+INFO: [9c21b407-efaf-4f4f-9f10-f623d327fa78] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=41.06 view=14.19 db=1.52 host=greenlight 
+INFO: [479554a8-34cc-4903-bd66-88e2bd4a15f6] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.90 view=15.49 db=0.45 host=greenlight 
+INFO: [22f6121d-46cb-4c44-bd79-843e719f613e] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [22f6121d-46cb-4c44-bd79-843e719f613e] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=39.53 view=0.00 db=1.48 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [4c631b1c-2c54-40a7-bf5b-6d285b503c97] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.02 view=11.46 db=0.56 host=greenlight 
+INFO: [36a8e9f4-0cdc-427b-a791-a7af877c542e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.74 view=11.96 db=0.60 host=greenlight 
+INFO: [dc2c7e2f-312d-4837-b045-1c2a452a143b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=38.10 view=13.65 db=1.22 host=greenlight 
+INFO: [2ab9bf9a-1ca2-4fcb-92c2-b39e0eb3fb6b] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [2ab9bf9a-1ca2-4fcb-92c2-b39e0eb3fb6b] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=36.04 view=0.00 db=1.19 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [3af84e77-1e89-4f08-954a-63fd69feef1a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.38 view=12.58 db=0.66 host=greenlight 
+INFO: [206f4841-2d02-42e4-8f6b-0c2360f88fc6] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=43.42 view=14.78 db=1.33 host=greenlight 
+INFO: [2a2c8e66-c738-4437-9af5-7bfdbde91c66] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [2a2c8e66-c738-4437-9af5-7bfdbde91c66] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=57.88 view=0.00 db=1.16 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [699b2510-e127-4338-8606-84dff673093a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.72 view=12.34 db=0.57 host=greenlight 
+INFO: [af879d41-bc5f-4404-b299-c9269bcbd827] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.94 view=12.76 db=0.84 host=greenlight 
+INFO: [032dba27-46d6-4fc0-9ad5-9e5665767611] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=39.47 view=14.73 db=1.20 host=greenlight 
+INFO: [1c79ecc6-5b6e-4ed9-9e98-cba554340aa1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.34 view=12.94 db=0.48 host=greenlight 
+INFO: [3f239ab8-9b28-4c3f-bc27-c0383b376c3f] Support: Pallabi is joining room adm-huf-2ya 
+INFO: [3f239ab8-9b28-4c3f-bc27-c0383b376c3f] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=47.67 view=0.00 db=1.19 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [4272fe69-c4e3-4c3f-b580-d75961af1c4b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=40.29 view=15.50 db=1.44 host=greenlight 
+INFO: [05631ad8-49c4-438a-b0ff-99ca9d0e2050] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.25 view=12.78 db=0.45 host=greenlight 
+INFO: [ea8a78e8-98ab-4d33-a557-bb51de3baaed] Support: Somnath Nath is joining room adm-huf-2ya 
+INFO: [ea8a78e8-98ab-4d33-a557-bb51de3baaed] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=34.74 view=0.00 db=1.11 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [75f9b4ab-525b-4e64-8da2-96bdcdaf5f37] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.35 view=12.40 db=0.59 host=greenlight 
+INFO: [959ff05f-2af4-40db-b99c-0992f1d3144f] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=39.89 view=14.98 db=1.46 host=greenlight 
+INFO: [6144e4d9-8c25-42b3-bf2d-52ec5785168c] method=GET path=/b/adm-huf-2ya format=*/* controller=RoomsController action=show status=200 duration=75.85 view=52.40 db=1.20 host=greenlight 
+INFO: [02b2cddb-8491-45e3-a25b-76c057c182fa] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.66 view=11.73 db=0.52 host=greenlight 
+INFO: [87d8fd6c-2b2c-48c4-9d73-e260b9a67cee] Support: test  is joining room adm-huf-2ya 
+INFO: [87d8fd6c-2b2c-48c4-9d73-e260b9a67cee] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=37.02 view=0.00 db=1.46 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [4857f567-5293-43ec-b245-d2d54b0f5bf9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.06 view=14.47 db=0.52 host=greenlight 
+INFO: [440ed7fe-3775-4cde-b0ee-765591fb4b60] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.14 view=12.32 db=0.61 host=greenlight 
+INFO: [f6e02281-76f0-421d-be00-aefd3efafdf3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.60 view=12.65 db=0.71 host=greenlight 
+INFO: [167ab871-8ce4-45ee-90eb-33821e8e2686] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=77.32 view=14.77 db=5.77 host=greenlight 
+INFO: [8b570b37-0c8d-4dcc-ac83-b656b5f00057] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.37 view=11.91 db=0.87 host=greenlight 
+INFO: [a67d1abe-1bfe-4bbd-9b32-e8ec7bf5b033] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [a67d1abe-1bfe-4bbd-9b32-e8ec7bf5b033] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=41.01 view=0.00 db=2.07 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [2e3b6021-664b-47a9-9920-d1d21255fc05] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.61 view=12.33 db=0.82 host=greenlight 
+INFO: [e29a53d4-af64-46ec-b06d-ca814fabf97b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=45.48 view=13.37 db=1.88 host=greenlight 
+INFO: [ceabb372-bb8b-4f89-94b9-058c3bf34528] method=GET path=/b/adm-huf-2ya format=*/* controller=RoomsController action=show status=200 duration=42.79 view=18.36 db=1.93 host=greenlight 
+INFO: [2e493f1c-4643-42b2-b645-5d3393ff5dd3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.02 view=12.02 db=0.63 host=greenlight 
+INFO: [b2853adb-f72a-43f5-b5e3-94a8dc3213d1] Support: test  is joining room adm-huf-2ya 
+INFO: [b2853adb-f72a-43f5-b5e3-94a8dc3213d1] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=36.62 view=0.00 db=1.46 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [85b34ceb-3c83-4fb4-bb90-4061a3b9f23b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.24 view=12.89 db=0.43 host=greenlight 
+INFO: [1da87e29-5d6c-49b7-baaa-0c5cd804d9aa] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.84 view=12.33 db=0.47 host=greenlight 
+INFO: [65e94467-c4c9-4ba8-9eee-882723cb421f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.89 view=12.49 db=0.47 host=greenlight 
+INFO: [93bebf17-c100-403a-ba5a-355e7302f7dd] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=126.38 view=17.26 db=5.66 host=greenlight 
+INFO: [bb072cad-526f-4d60-b597-72b714cc31dc] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.64 view=12.17 db=0.63 host=greenlight 
+INFO: [972ef0de-7931-465b-817b-d4d11a644c4d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.04 view=11.60 db=4.10 host=greenlight 
+INFO: [02cff80c-75b1-46c3-8e27-7209e65f81ee] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=76.79 view=13.58 db=2.10 host=greenlight 
+INFO: [1bbd4a2f-26f6-46fb-aef2-ff062d41755f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=21.03 view=16.36 db=0.69 host=greenlight 
+INFO: [cd204089-e90c-4db7-ad66-30eaab8ec1af] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [49a5b55f-57ee-4cdf-83a2-3a237feaaf0d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=40.92 view=23.18 db=7.15 host=greenlight 
+INFO: [e73398a6-6dbe-4fbe-bd11-6d1009ac923d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.51 view=18.49 db=0.98 host=greenlight 
+INFO: [cd204089-e90c-4db7-ad66-30eaab8ec1af] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=195.81 view=0.00 db=3.36 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [10f59114-8a71-4fd0-81cf-4d53f5abd1d0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.62 view=12.38 db=0.86 host=greenlight 
+INFO: [4d58a474-84a4-4f02-8469-0cafac67a386] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=56.16 view=13.51 db=1.60 host=greenlight 
+INFO: [42403776-1234-47dc-80cd-255835de1f72] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.04 view=15.65 db=0.45 host=greenlight 
+INFO: [5f1608af-abc2-461c-95a8-a9f11e13fd74] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=23.25 view=11.53 db=3.75 host=greenlight 
+INFO: [64c7d5de-6fba-43d5-8955-13ecf554456c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.57 view=11.78 db=4.15 host=greenlight 
+INFO: [5a309be9-b2dd-444d-b520-9ee782fbac1c] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=18.34 view=12.79 db=0.82 host=greenlight 
+INFO: [6de51a8c-6447-46a8-858e-58afd6255e43] Support: admin@example.com is attempting to login. 
+INFO: [6de51a8c-6447-46a8-858e-58afd6255e43] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=6.50 view=0.00 db=0.99 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [0f5efc41-4638-4a35-81ee-201a6fc59be6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=20.57 view=15.73 db=0.62 host=greenlight 
+INFO: [b0e3817f-7a9a-4a46-aee0-87bda191e907] Support: admin@example.com is attempting to login. 
+INFO: [b0e3817f-7a9a-4a46-aee0-87bda191e907] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=6.28 view=0.00 db=0.90 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [f5dd0c5c-9031-4c16-972f-e873aae4a4f2] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=16.49 view=11.91 db=0.56 host=greenlight 
+INFO: [be6aad5b-2909-40bb-b365-ebd9f8c6cf94] Support: banerji.subhaditya@gmail.com is attempting to login. 
+INFO: [be6aad5b-2909-40bb-b365-ebd9f8c6cf94] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=6.27 view=0.00 db=0.87 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [531781a5-fe30-42bf-8a07-220db5db6101] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=17.43 view=12.36 db=0.63 host=greenlight 
+INFO: [04855dfb-3362-4ecc-9cf2-8c6507a60535] Support: banerji.subhaditya@gmail.com is attempting to login. 
+INFO: [04855dfb-3362-4ecc-9cf2-8c6507a60535] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=6.01 view=0.00 db=0.85 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [303fc97f-830c-4c20-8f42-16a7ba644f3d] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=16.70 view=11.66 db=0.47 host=greenlight 
+INFO: [a9c8ccf8-e242-4ff2-a595-3a7652378a8a] Support: admin@example.com is attempting to login. 
+INFO: [a9c8ccf8-e242-4ff2-a595-3a7652378a8a] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=6.11 view=0.00 db=0.84 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [d4145665-1f92-4bb4-a95d-5cbaa106ec85] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=20.88 view=15.59 db=0.56 host=greenlight 
+INFO: [50ba53c1-6bf1-4522-b9a9-0ee5d0cbe36a] Support: admin@example.com is attempting to login. 
+INFO: [50ba53c1-6bf1-4522-b9a9-0ee5d0cbe36a] Support: admin@example.com has successfully logged in. 
+INFO: [50ba53c1-6bf1-4522-b9a9-0ee5d0cbe36a] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=238.75 view=0.00 db=5.47 location=http://webinar.gnitdigiconclave.com/b/ host=greenlight 
+INFO: [351bd67d-8644-4d7f-b3e1-bcd4de039248] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.43 view=11.80 db=1.62 host=greenlight 
+INFO: [2b2147bc-2e83-4c99-ab4b-8f6ddabd6397] method=GET path=/b/admins format=html controller=AdminsController action=index status=200 duration=257.87 view=18.45 db=7.78 host=greenlight 
+INFO: [73674b85-5c4f-4504-b610-02306ab252dc] method=GET path=/b/admins/edit/gl-ftpjwkkusrgd format=html controller=AdminsController action=edit_user status=200 duration=276.53 view=45.52 db=3.69 host=greenlight 
+INFO: [3fabc44a-faf0-4c18-a173-ef7a98194569] method=GET path=/b/admins/rooms format=html controller=AdminsController action=server_rooms status=200 duration=294.79 view=16.88 db=5.23 host=greenlight 
+INFO: [40a364bb-5090-46ca-b2f9-79eb3557be51] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=297.88 view=20.32 db=2.15 host=greenlight 
+INFO: [c7489dc8-e1fc-459c-989c-380e7276fb3e] method=POST path=/b/e9db4eb363868a5d363922be4bbf759d6cd926ea/03df0dc539afe8f759c2ffb7b5c6cec5e93eb17f-1589462722583 format=html controller=RecordingsController action=update status=302 duration=290.15 view=0.00 db=1.97 location=https://webinar.gnitdigiconclave.com/b/admins/recordings host=greenlight 
+INFO: [740db8df-ebfe-4fb9-9825-16f7249b1c43] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=290.18 view=21.11 db=2.19 host=greenlight 
+INFO: [dffd24eb-cf39-47cd-a1a9-244141ee6faa] method=POST path=/b/e9db4eb363868a5d363922be4bbf759d6cd926ea/03df0dc539afe8f759c2ffb7b5c6cec5e93eb17f-1589462722583 format=html controller=RecordingsController action=update status=302 duration=253.14 view=0.00 db=1.58 location=https://webinar.gnitdigiconclave.com/b/admins/recordings host=greenlight 
+INFO: [786b7d41-0a69-40ad-b4c6-66035b71bf3d] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=291.40 view=17.57 db=2.46 host=greenlight 
+INFO: [a9f75cd0-fa87-4ccf-aa19-fc2318a734c9] method=POST path=/b/1796c9baa69a2d7e27ca17003e9c1a3f82523129/3f552b0f3341d1add8d0df481fed22cf9da2421c-1589460392005 format=html controller=RecordingsController action=update status=302 duration=261.35 view=0.00 db=1.75 location=https://webinar.gnitdigiconclave.com/b/admins/recordings host=greenlight 
+INFO: [4bce1701-34fc-4c06-917e-4a726e41c5b2] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=295.51 view=23.92 db=2.24 host=greenlight 
+INFO: [93a9f33d-52e1-47af-b22d-597d96b0df97] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=293.97 view=15.19 db=2.93 host=greenlight 
+INFO: [409aacec-0c8a-43ba-823e-2861ef30bf1c] Support: admin@example.com is joining room adm-huf-2ya 
+INFO: [6592cfe9-45fc-4b8c-bc66-b7d783ce9f49] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=41.75 view=19.30 db=10.47 host=greenlight 
+INFO: [cd59364f-5ab2-4412-bca6-cbcef3abea97] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.02 view=12.58 db=0.88 host=greenlight 
+INFO: [409aacec-0c8a-43ba-823e-2861ef30bf1c] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=379.50 view=0.00 db=3.50 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [acfe25f0-3056-40f2-a786-9e1e3d9995f3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=29.44 view=16.65 db=4.23 host=greenlight 
+INFO: [bbc09731-5c0d-4c72-8413-9404f32dd003] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=239.93 view=12.14 db=2.02 host=greenlight 
+INFO: [766e97f1-2e02-494e-b7f5-7515b92610c2] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.75 view=11.35 db=1.42 host=greenlight 
+INFO: [46dac619-430f-4bc9-8e7d-60170fcf6c73] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=273.14 view=16.68 db=6.67 host=greenlight 
+INFO: [95ad0bde-9387-4895-8ea5-f1da8f37a882] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [92b56dba-8f36-402b-9f53-9ffd19a9a5a1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=33.73 view=12.17 db=5.75 host=greenlight 
+INFO: [26056a4a-40ce-4047-b961-12ec54f2a176] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.41 view=11.20 db=0.62 host=greenlight 
+INFO: [95ad0bde-9387-4895-8ea5-f1da8f37a882] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: aeba9dae-7634-4cd1-8c20-ccc2864f1b3a) to Async(default) at 2020-05-14 15:44:26 UTC with arguments: #<GlobalID:0x0000562b9e7bc918 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [95ad0bde-9387-4895-8ea5-f1da8f37a882] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=362.00 view=0.00 db=2.98 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [aeba9dae-7634-4cd1-8c20-ccc2864f1b3a] Performing NotifyUserWaitingJob (Job ID: aeba9dae-7634-4cd1-8c20-ccc2864f1b3a) from Async(default) with arguments: #<GlobalID:0x0000562b9e4ad948 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [aeba9dae-7634-4cd1-8c20-ccc2864f1b3a] Performed NotifyUserWaitingJob (Job ID: aeba9dae-7634-4cd1-8c20-ccc2864f1b3a) from Async(default) in 0.11ms 
+INFO: [465007f7-7f8e-47c3-99ec-3006e6dc252b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.89 view=12.58 db=0.55 host=greenlight 
+INFO: [91f970ac-5028-4c3e-bf75-015c170664d3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=241.81 view=16.06 db=1.29 host=greenlight 
+INFO: [7f1ac7f7-6c0e-4349-b3ca-efe17580bde1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.02 view=11.55 db=0.55 host=greenlight 
+INFO: [6c1c9a54-ca46-4e0e-81b6-71ebc605b51c] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=81.72 view=14.57 db=6.14 host=greenlight 
+INFO: [7ebca114-ae5e-449a-8f46-52dc7389c4a8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.41 view=12.57 db=0.66 host=greenlight 
+INFO: [0330743e-30d1-47e8-9b2a-ce2df6dc737b] Support: Sisighs is joining room adm-huf-2ya 
+INFO: [ada886d6-6b8b-40a2-98da-bc769ae6578a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=38.85 view=13.74 db=10.66 host=greenlight 
+INFO: [2ea1e824-5b3b-42db-ad22-d539213c82ee] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.09 view=18.14 db=0.73 host=greenlight 
+INFO: [0330743e-30d1-47e8-9b2a-ce2df6dc737b] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=167.39 view=0.00 db=3.90 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [e5c19c13-2179-447b-aa7f-f82259b0d8a7] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.07 view=12.23 db=0.80 host=greenlight 
+INFO: [bc9c6a2d-5000-4b0b-9b2e-5c3728f985e2] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=26.09 view=17.97 db=0.65 host=greenlight 
+INFO: [cf6b4747-ab72-4195-9c05-c6550ee95caf] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.47 view=11.36 db=0.64 host=greenlight 
+INFO: [0c9cf0d3-996a-472b-b410-c8e3a7de767b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.42 view=11.68 db=0.46 host=greenlight 
+INFO: [427b63cf-ab19-4349-b007-39ddf1662007] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.08 view=11.36 db=0.47 host=greenlight 
+INFO: [5ae824ec-a56d-45e0-85d0-aa50b50692f9] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=20.23 view=15.37 db=0.48 host=greenlight 
+INFO: [8fbc99e6-7d08-490f-a544-cebff6343725] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.89 view=11.53 db=0.45 host=greenlight 
+INFO: [7e58f6ed-e396-4040-9b46-a99cbb0d7a18] Support: admin@example.com is attempting to login. 
+INFO: [7e58f6ed-e396-4040-9b46-a99cbb0d7a18] Support: admin@example.com has successfully logged in. 
+INFO: [7e58f6ed-e396-4040-9b46-a99cbb0d7a18] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=229.88 view=0.00 db=1.50 location=http://webinar.gnitdigiconclave.com/b/ host=greenlight 
+INFO: [1fe597dc-1d79-4c62-9f4b-546e7f8933c4] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.22 view=11.26 db=1.31 host=greenlight 
+INFO: [544ff7ea-3acf-44b6-9d2b-69327f90bc4c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.50 view=11.63 db=1.32 host=greenlight 
+INFO: [b141080f-06a4-4a8b-9929-9803b42fab59] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=259.45 view=16.92 db=6.07 host=greenlight 
+INFO: [5a148e84-6086-42c7-b1e1-eacda27c4bff] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=557.16 view=24.47 db=8.75 host=greenlight 
+INFO: [03ae34e7-e9f0-496e-85a1-1f09f6eeb336] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [44aa9168-2d70-4377-b512-ee131270a890] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=68.26 view=58.58 db=0.95 host=greenlight 
+INFO: [708e976d-db52-4f9b-885c-ec56f330abe1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=53.57 view=43.51 db=0.98 host=greenlight 
+INFO: [03ae34e7-e9f0-496e-85a1-1f09f6eeb336] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: d93f6884-2545-46ae-be36-291ddb521725) to Async(default) at 2020-05-14 16:12:52 UTC with arguments: #<GlobalID:0x0000562b9efb6f10 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [03ae34e7-e9f0-496e-85a1-1f09f6eeb336] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=1463.00 view=0.00 db=4.06 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [d93f6884-2545-46ae-be36-291ddb521725] Performing NotifyUserWaitingJob (Job ID: d93f6884-2545-46ae-be36-291ddb521725) from Async(default) with arguments: #<GlobalID:0x0000562b9efa6430 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [d93f6884-2545-46ae-be36-291ddb521725] Performed NotifyUserWaitingJob (Job ID: d93f6884-2545-46ae-be36-291ddb521725) from Async(default) in 0.14ms 
+INFO: [d5111b6e-e804-4d03-856d-4e58a9e74226] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=239.48 view=12.14 db=1.70 host=greenlight 
+INFO: [fda6cff7-d111-41d0-9577-1085213349a7] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=239.83 view=13.09 db=1.30 host=greenlight 
+INFO: [650fd208-51c6-438e-8c29-494a521eef52] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=119.67 view=17.11 db=1.84 host=greenlight 
+INFO: [f0a8c47b-70cb-441e-a96a-2db853e8718f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.24 view=13.58 db=0.45 host=greenlight 
+INFO: [eb6b2a00-cfe6-409f-8e6c-07b346c219b7] Support: Subhaditya  is joining room adm-huf-2ya 
+INFO: [e95c3ff8-ec20-4ca1-8ada-85394e0f9f96] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=30.90 view=23.57 db=1.13 host=greenlight 
+INFO: [8107a4aa-ff76-45b0-9f08-022d3081d37a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.99 view=16.12 db=0.70 host=greenlight 
+INFO: [eb6b2a00-cfe6-409f-8e6c-07b346c219b7] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=201.73 view=0.00 db=2.69 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [49c01769-bc17-4219-ad9d-218c739a78f6] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=22.48 view=17.07 db=0.61 host=greenlight 
+INFO: [94ced743-5263-426d-a485-14cb50a8669a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.64 view=12.21 db=0.45 host=greenlight 
+INFO: [f329e487-0a95-411f-9990-587e12da1e81] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=80.52 view=26.95 db=1.61 host=greenlight 
+INFO: [a90e1642-a65b-4b31-b82b-87afc860342f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.42 view=12.88 db=0.47 host=greenlight 
+INFO: [43ae8919-589f-4f3e-8800-93d46a393d5f] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [43ae8919-589f-4f3e-8800-93d46a393d5f] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=44.11 view=0.00 db=1.14 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [a566256b-0f19-4af0-9e64-53f97e842120] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.59 view=13.11 db=0.44 host=greenlight 
+INFO: [1a8e61c4-efa4-47de-82e5-3e05a0a592d4] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=69.88 view=15.27 db=1.51 host=greenlight 
+INFO: [cceff1f2-c1de-4077-9513-f2ba27fba137] method=GET path=/b/ format= controller=MainController action=index status=200 duration=21.42 view=16.81 db=0.52 host=greenlight 
+INFO: [c377cbc0-fc5d-4cb1-add5-e36d844455a2] method=GET path=/b/ format= controller=MainController action=index status=200 duration=14.90 view=11.33 db=0.45 host=greenlight 
+INFO: [0c2ef75c-d5ea-4740-8fc2-21d3ae7c022b] method=GET path=/b/ format= controller=MainController action=index status=200 duration=18.31 view=13.59 db=0.65 host=greenlight 
+INFO: [0f124d18-364e-4d6c-a990-7673dde0f96f] method=GET path=/b/ format= controller=MainController action=index status=200 duration=16.70 view=12.45 db=0.61 host=greenlight 
+INFO: [f9d1fe15-3b8b-479b-afc2-dc8226f2ce0e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.89 view=12.08 db=0.62 host=greenlight 
+INFO: [5a70b3f3-cc77-4c68-975f-7a04ab124a12] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=67.59 view=15.53 db=1.81 host=greenlight 
+INFO: [b168f0b2-b0ff-47d8-95c1-9a16cafe628b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.03 view=12.52 db=0.65 host=greenlight 
+INFO: [8b5551a2-6546-485f-86d4-20ecd199883a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.86 view=15.93 db=0.65 host=greenlight 
+INFO: [1d6d414e-5c5c-4a17-91d9-953179425eae] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.51 view=12.66 db=0.62 host=greenlight 
+INFO: [857a5ab5-957d-45e0-8fe8-31f09308c82b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.90 view=12.03 db=0.60 host=greenlight 
+INFO: [b0415e9d-5518-4234-b057-dd108080769b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.80 view=12.03 db=0.60 host=greenlight 
+INFO: [81fd59e6-9ac9-4c86-96e8-d174c8647746] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.35 view=11.66 db=0.48 host=greenlight 
+INFO: [7391c38b-3526-40fe-9d8d-e0727683571d] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [7391c38b-3526-40fe-9d8d-e0727683571d] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=41.85 view=0.00 db=1.45 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [a1b79ad9-34bb-45ea-98d2-362106ae309c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.85 view=11.82 db=0.61 host=greenlight 
+INFO: [2d3bbb2d-9de5-436a-87d3-25609471f132] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.94 view=11.79 db=0.48 host=greenlight 
+INFO: [2413a853-3f25-4a0f-be37-b84acfad879a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.17 view=12.22 db=0.60 host=greenlight 
+INFO: [ea20ca92-3b86-4cf6-b6a0-167187d76589] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=98.86 view=22.67 db=1.98 host=greenlight 
+INFO: [f93beded-73a0-457a-81c6-c7122e035e76] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.00 view=12.01 db=0.64 host=greenlight 
+INFO: [f2b7d4a4-896c-4f88-865a-c362ba308d51] Support: Soumyajeet Kabi is joining room adm-huf-2ya 
+INFO: [f2b7d4a4-896c-4f88-865a-c362ba308d51] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=42.70 view=0.00 db=1.25 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [b7efff81-cd9f-4544-a4e7-00ccdd68a46f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.13 view=12.18 db=0.62 host=greenlight 
+INFO: [a035ee4f-4d03-4f68-8f46-d5c2952a1821] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.96 view=12.70 db=0.44 host=greenlight 
+INFO: [81385a81-6ae2-4042-a3b8-fd3e2050c8d7] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=80.27 view=14.37 db=1.34 host=greenlight 
+INFO: [5c12bc83-0c4c-4594-87e2-e2a4b2ab2aeb] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=66.13 view=22.60 db=1.40 host=greenlight 
+INFO: [df5a0618-d028-41cb-ae02-94f104be687a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.17 view=11.94 db=0.62 host=greenlight 
+INFO: [7dab8508-4770-4acd-93dd-426c6888a9de] Support: Somnath Nath is joining room adm-huf-2ya 
+INFO: [7dab8508-4770-4acd-93dd-426c6888a9de] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=43.21 view=0.00 db=1.14 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [23908abb-b9b0-444f-a2ec-d168dc2b7a6a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.92 view=11.42 db=0.46 host=greenlight 
+INFO: [7d165f94-ca3a-4859-80f8-a5671321fb44] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.16 view=11.72 db=0.64 host=greenlight 
+INFO: [e8acfa78-2f31-473c-93ca-8fea87c05b26] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=22.81 view=11.08 db=3.66 host=greenlight 
+INFO: [51ff72e0-0dde-48f8-906c-96494bd57ce8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.91 view=12.44 db=0.62 host=greenlight 
+INFO: [88bdc36c-d79a-4df9-ad28-3c6ea543fbcc] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=25.60 view=12.53 db=4.33 host=greenlight 
+INFO: [2e469887-c9e4-4cb3-8cdd-dce232f70d2b] method=GET path=/b/ format= controller=MainController action=index status=200 duration=20.40 view=16.01 db=0.63 host=greenlight 
+INFO: [96476021-31e5-4e9e-a3a0-8011a97cdb4c] method=GET path=/b/ format= controller=MainController action=index status=200 duration=15.81 view=12.18 db=0.60 host=greenlight 
+INFO: [fa787a62-296b-493d-bf42-50f0a468a01a] method=GET path=/b/ format= controller=MainController action=index status=200 duration=15.94 view=11.64 db=0.60 host=greenlight 
+INFO: [8c291af2-705a-4c09-92ef-c934a3386420] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=16.27 view=11.44 db=0.85 host=greenlight 
+INFO: [2b809508-3616-4c22-bf7d-94618389f49f] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=262.11 view=22.97 db=2.49 host=greenlight 
+INFO: [d36adda0-219e-47df-a03b-dd90279ed13e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.32 view=12.18 db=0.43 host=greenlight 
+INFO: [3008cf9e-9da3-488e-bb0c-d3944e0517ca] Support: Subjaditya is joining room adm-huf-2ya 
+INFO: [0cc18f5f-7203-42c4-906a-401ffdc7b935] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=42.63 view=24.61 db=6.10 host=greenlight 
+INFO: [4f8e3c2e-9e9a-49e4-90b8-dee4f841d041] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=29.38 view=23.11 db=1.00 host=greenlight 
+INFO: [3008cf9e-9da3-488e-bb0c-d3944e0517ca] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=1131.61 view=0.00 db=2.89 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [7a944a2b-6a7d-4aa0-8d1a-6c1e20876cec] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=28.53 view=22.63 db=0.74 host=greenlight 
+INFO: [791af619-0b9c-40ed-a783-a3e1a67390b3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=23.25 view=17.61 db=0.63 host=greenlight 
+INFO: [f973346c-e30f-4c3b-9dcf-255c0c206777] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=294.62 view=13.55 db=3.74 host=greenlight 
+INFO: [4f57de01-3290-4778-8934-b6a4d3e59821] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.76 view=11.65 db=1.44 host=greenlight 
+INFO: [8715977a-87c6-4a39-827e-dda6510ffd93] Support: admin@example.com is joining room adm-huf-2ya 
+INFO: [2bf6b0a7-29d4-4241-bfe7-83ba637fc001] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=23.80 view=17.31 db=1.05 host=greenlight 
+INFO: [f3b56315-a3c4-4be4-aa53-1ab7c193bf83] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=22.85 view=16.45 db=0.94 host=greenlight 
+INFO: [8715977a-87c6-4a39-827e-dda6510ffd93] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=416.81 view=0.00 db=3.72 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [45d4ed9e-5c6a-40f9-924b-019f7c92d9af] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=244.61 view=17.62 db=1.65 host=greenlight 
+INFO: [61ed3872-36ac-4c33-bd80-ecbc20e9078d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.58 view=11.29 db=1.67 host=greenlight 
+INFO: [b4601cbe-c35d-492d-94fb-3a3c1c0e330a] Support: admin@example.com has left room adm-huf-2ya 
+INFO: [b4601cbe-c35d-492d-94fb-3a3c1c0e330a] method=GET path=/b/adm-huf-2ya/logout format=html controller=RoomsController action=logout status=302 duration=228.57 view=0.00 db=1.88 location=https://webinar.gnitdigiconclave.com/b/adm-huf-2ya host=greenlight 
+INFO: [34f237c7-ece4-4349-bee3-23f2c6f80dff] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=303.77 view=21.90 db=3.08 host=greenlight 
+INFO: [c58fcb6e-54a1-49d8-9b57-70742a24f7b7] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=236.83 view=11.05 db=1.11 host=greenlight 
+INFO: [444fbcfb-210e-45df-ae8d-73370525dfa1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=247.04 view=11.70 db=6.01 host=greenlight 
+INFO: [1e4ae6ec-505e-4948-ac4d-492c23d8113e] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=513.29 view=15.63 db=239.70 host=greenlight 
+INFO: [7821570c-f386-480a-b923-62b4466452ec] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=472.06 view=11.78 db=2.48 host=greenlight 
+INFO: [39362962-ed41-47de-9a29-8d1d395f63d0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=255.36 view=10.66 db=5.71 host=greenlight 
+INFO: [3c7ce042-b1bd-4918-be5f-9c3ed0e30a83] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=257.54 view=18.87 db=1.60 host=greenlight 
+INFO: [bd98fe43-b89c-498e-9fcb-7c6ccc09f16c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.09 view=11.50 db=1.34 host=greenlight 
+INFO: [1e8aa34a-c284-4651-909d-06c545dde810] method=GET path=/b/admins format=html controller=AdminsController action=index status=200 duration=254.34 view=17.27 db=6.78 host=greenlight 
+INFO: [21d860d5-19e3-437f-b1f7-99fb0df81715] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=241.63 view=11.15 db=1.33 host=greenlight 
+INFO: [464cf89e-19de-4fd4-ba7b-8485df831f56] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=303.58 view=17.37 db=1.96 host=greenlight 
+INFO: [eee554e9-cca2-4e66-9c54-25bae4d59b96] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.36 view=11.65 db=1.02 host=greenlight 
+INFO: [417b51e9-ad39-4183-901a-f5570e58cae0] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=291.19 view=17.89 db=2.19 host=greenlight 
+INFO: [bfbb2fb7-d083-426f-b5a4-b27c1156a03c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.67 view=12.53 db=1.28 host=greenlight 
+INFO: [55100d15-6f14-4572-9778-9cf4b9a06c5a] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=298.44 view=21.34 db=2.57 host=greenlight 
+INFO: [ee4de278-97e0-4454-b170-d28a7d404d72] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.69 view=12.10 db=1.10 host=greenlight 
+INFO: [6de7506f-1ef5-4684-862e-0bb2ebb7f6d8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.74 view=11.22 db=1.15 host=greenlight 
+INFO: [1e04f087-7187-43ae-8fdc-667db264aae9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=243.25 view=12.69 db=5.04 host=greenlight 
+INFO: [5d70b6ad-8d0f-446b-afd4-5312d7b8ce00] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=504.20 view=16.22 db=6.97 host=greenlight 
+INFO: [12a9b0f5-3481-434c-8e14-fb7736f13c3e] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [9f3e124a-3f42-4dd7-b3fa-702d427f9605] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=28.41 view=22.21 db=0.77 host=greenlight 
+INFO: [06ca89aa-4cbb-4f6c-9a19-2bc33ed63e18] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.33 view=11.38 db=0.55 host=greenlight 
+INFO: [12a9b0f5-3481-434c-8e14-fb7736f13c3e] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 216580f1-30a3-4c57-9378-c0c9b7d35821) to Async(default) at 2020-05-14 17:41:20 UTC with arguments: #<GlobalID:0x0000562b9edbcd40 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [12a9b0f5-3481-434c-8e14-fb7736f13c3e] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=386.25 view=0.00 db=2.95 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [ed731cb9-d315-4b46-8f76-23da99e0d9e3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=236.97 view=11.31 db=1.12 host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [216580f1-30a3-4c57-9378-c0c9b7d35821] Performing NotifyUserWaitingJob (Job ID: 216580f1-30a3-4c57-9378-c0c9b7d35821) from Async(default) with arguments: #<GlobalID:0x0000562b9ea16c40 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [216580f1-30a3-4c57-9378-c0c9b7d35821] Performed NotifyUserWaitingJob (Job ID: 216580f1-30a3-4c57-9378-c0c9b7d35821) from Async(default) in 0.13ms 
+INFO: [c22b5060-9ca3-4a9c-8f74-35fc97eb2c21] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.01 view=11.52 db=1.17 host=greenlight 
+INFO: [7bbf5e0d-5a0e-48b1-aae2-66a811d5d4e4] Support: admin@example.com has left room adm-jfw-4et 
+INFO: [7bbf5e0d-5a0e-48b1-aae2-66a811d5d4e4] method=GET path=/b/adm-jfw-4et/logout format=html controller=RoomsController action=logout status=302 duration=228.18 view=0.00 db=1.64 location=https://webinar.gnitdigiconclave.com/b/adm-jfw-4et host=greenlight 
+INFO: [604f6eac-8ed4-449c-a3d2-e1a638b87b21] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=267.62 view=16.60 db=5.45 host=greenlight 
+INFO: [34ff2791-b50e-43d1-8f52-700a65a271fb] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.61 view=11.75 db=1.43 host=greenlight 
+INFO: [e9ec406e-1722-42cb-898c-8c822b90b7c4] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=271.65 view=19.69 db=5.32 host=greenlight 
+INFO: [37ed7cf0-f91d-4172-bc8a-deba4e969d57] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.16 view=11.18 db=1.50 host=greenlight 
+INFO: [16f38f87-4603-4bf6-bc29-55bcad08be9a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=240.49 view=10.82 db=3.20 host=greenlight 
+INFO: [ff328191-285d-4ad5-9525-52d6d8d9efee] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=481.09 view=11.57 db=2.98 host=greenlight 
+INFO: [9eebbb83-f6ad-4e22-837c-a5f84b2b1b7d] method=GET path=/b/admins format=html controller=AdminsController action=index status=200 duration=254.06 view=17.56 db=6.02 host=greenlight 
+INFO: [d30186ad-8226-4eea-a9ba-6f28713f087f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=242.04 view=16.79 db=1.04 host=greenlight 
+INFO: [44bce30b-3669-4dd8-86d3-b02aab3dd906] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=297.62 view=19.19 db=2.07 host=greenlight 
+INFO: [f4c70050-efcb-4b98-ac3b-0452be14dedd] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=236.03 view=11.31 db=1.07 host=greenlight 
+INFO: [8d2cc47b-7975-4428-8535-bfe4414b22ba] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=336.51 view=28.39 db=2.95 host=greenlight 
+INFO: [1c96a3bb-ad8e-4ae6-9ff4-9bbab9713ff9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=247.16 view=11.68 db=1.81 host=greenlight 
+INFO: [3e5f5159-0152-433f-b3f6-5b2628bd9fdd] method=GET path=/b/admins/recordings format=html controller=AdminsController action=server_recordings status=200 duration=363.10 view=33.94 db=2.87 host=greenlight 
+INFO: [eb70320e-ea33-433a-bfe7-9f9f728c2ebc] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=244.18 view=11.18 db=1.73 host=greenlight 
+INFO: [45dc39fa-48e6-4547-b1bc-0b58817eba94] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=325.01 view=14.70 db=6.65 host=greenlight 
+INFO: [739b511d-b135-4b97-9c89-cb439ed51200] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=237.68 view=11.78 db=1.32 host=greenlight 
+INFO: [8905bfbf-0e14-46f2-a1fe-2118bf85b075] Support: admin@example.com is joining room adm-huf-2ya 
+INFO: [00cf2fbf-6a3c-4a0c-a84a-b786f439edc1] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=28.87 view=14.25 db=5.32 host=greenlight 
+INFO: [b8772cbd-2d39-4f99-bc8f-64aa1437af0c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.41 view=15.81 db=0.79 host=greenlight 
+INFO: [8905bfbf-0e14-46f2-a1fe-2118bf85b075] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=382.60 view=0.00 db=3.83 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [24ae1b75-70e2-4351-bed6-75a5051b1d28] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=239.05 view=11.62 db=1.80 host=greenlight 
+INFO: [356e13bb-e6c7-422b-a03f-57bb8a3ea533] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=238.21 view=11.59 db=1.34 host=greenlight 
+INFO: [1ddafe71-5346-43ac-b7c7-765ebed27869] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=23.10 view=11.88 db=3.70 host=greenlight 
+INFO: [809f13fc-8e75-4ce1-94de-1eac315c481b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=295.77 view=15.70 db=5.42 host=greenlight 
+INFO: [ac3d5415-2630-4dd0-b9f9-30302aa17a89] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.04 view=15.11 db=0.67 host=greenlight 
+INFO: [fd733f33-0a65-4aa4-841e-d42b64ea6acd] Support: SUBHADITYA  is joining room adm-huf-2ya 
+INFO: [59ca774d-0d53-4a42-944e-f23207948bfc] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=39.29 view=21.54 db=6.23 host=greenlight 
+INFO: [7e0565a4-f52f-46b0-ac29-bf9d293da1da] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=21.94 view=15.71 db=1.04 host=greenlight 
+INFO: [fd733f33-0a65-4aa4-841e-d42b64ea6acd] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=1245.97 view=0.00 db=3.76 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [000cfb1c-c398-4497-ab33-76fad2f4bc68] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=30.78 view=23.86 db=1.04 host=greenlight 
+INFO: [39c66959-8685-47e0-a62d-2012bae169cc] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.13 view=12.08 db=0.65 host=greenlight 
+INFO: [091f441a-fd4d-4d2f-8f5b-4c5a76323870] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=20.29 view=16.12 db=0.56 host=greenlight 
+INFO: [4170fee1-82fb-48e8-9735-3e8cc84d6cd4] Support: Guest has left room adm-huf-2ya 
+INFO: [4170fee1-82fb-48e8-9735-3e8cc84d6cd4] method=GET path=/b/adm-huf-2ya/logout format=html controller=RoomsController action=logout status=302 duration=7.13 view=0.00 db=1.15 location=https://webinar.gnitdigiconclave.com/b/adm-huf-2ya host=greenlight 
+INFO: [1c5f05e2-e9a0-4864-a276-8aab1535db3a] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=161.56 view=23.68 db=2.43 host=greenlight 
+INFO: [178d6fea-74fc-4f27-93a8-f88d8b103b67] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.42 view=11.73 db=0.60 host=greenlight 
+INFO: [8954d558-3f8b-47e2-82a6-0b8cfdc87e52] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.77 view=11.37 db=0.44 host=greenlight 
+INFO: [1c444ee0-3959-40b4-8a1f-2bac14297b9d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=25.22 view=11.92 db=4.30 host=greenlight 
+INFO: [fd69616f-884d-4b4a-89bc-f51378f32c0a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.94 view=14.74 db=0.81 host=greenlight 
+INFO: [5923eb5c-085a-43f0-9870-41e1b31e1487] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.23 view=11.56 db=0.82 host=greenlight 
+INFO: [5b748664-bbb6-4197-95b8-ed0e3e655736] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.05 view=11.95 db=0.84 host=greenlight 
+INFO: [8c26ed1d-0ffc-4d59-b107-aebb982b58d7] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=316.63 view=17.98 db=2.78 host=greenlight 
+INFO: [595aa26b-71c2-40cc-aa05-7d62497d404c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.56 view=15.66 db=0.75 host=greenlight 
+INFO: [8b441fad-feda-47da-bd17-4b38eb0c22b6] Support: SUBHADITYA  is joining room adm-huf-2ya 
+INFO: [8b441fad-feda-47da-bd17-4b38eb0c22b6] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=839.95 view=0.00 db=3.27 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [5b7397b0-004c-4d50-8690-0fd777e427b0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=31.10 view=24.78 db=0.78 host=greenlight 
+INFO: [ceb8010d-c6cf-4eaa-8d6f-26e2890b91d3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.93 view=11.61 db=0.67 host=greenlight 
+INFO: [675f55e1-4332-4dab-ad22-e1a2b5858038] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=329.19 view=291.29 db=15.22 host=greenlight 
+INFO: [71513ffe-6db5-4791-bd71-20c56debdd1e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.33 view=11.98 db=0.55 host=greenlight 
+INFO: [3108f9ad-9050-4faa-b19b-e8331aa7b7f6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=23.07 view=14.96 db=1.84 host=greenlight 
+INFO: [7ca30ee3-1d81-4d0b-9aee-ad73b276f886] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=43.73 view=16.02 db=19.50 host=greenlight 
+INFO: [687326a7-30d2-4f70-856f-aa62c612e6f6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=16.36 view=12.20 db=0.54 host=greenlight 
+INFO: [c00949ba-5e01-4616-bf2a-4cd8bde6c931] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.32 view=10.95 db=0.69 host=greenlight 
+INFO: [b093adac-50cd-4e02-b31a-f995e938071f] Support: admin@example.com is attempting to login. 
+INFO: [b093adac-50cd-4e02-b31a-f995e938071f] Support: admin@example.com has successfully logged in. 
+INFO: [b093adac-50cd-4e02-b31a-f995e938071f] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=250.45 view=0.00 db=12.60 location=https://webinar.gnitdigiconclave.com/b/signin/ host=greenlight 
+INFO: [9996bfe7-487d-4881-af11-aa8ad71bbfef] method=GET path=/b/signin format=html controller=SessionsController action=signin status=302 duration=228.83 view=0.00 db=7.34 location=https://webinar.gnitdigiconclave.com/b/adm-jfw-4et host=greenlight 
+INFO: [9f49575a-1ed7-40c0-b47c-8759c05e954b] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=953.99 view=49.81 db=10.38 host=greenlight 
+INFO: [77f4b18a-b265-4e05-9e6c-390333fd5830] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=223.58 view=10.61 db=1.20 host=greenlight 
+INFO: [b6170db5-69d5-4869-9d78-1c403f16de25] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=438.56 view=11.54 db=3.48 host=greenlight 
+INFO: [39416b8a-4388-4ae2-a8d4-dff88153adf6] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=463.81 view=16.72 db=4.30 host=greenlight 
+INFO: [847f0da1-279d-42d0-84df-77ef56b5107f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=228.03 view=12.81 db=1.55 host=greenlight 
+INFO: [8bc4a250-e579-487c-a9f0-e75f82986c22] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=365.86 view=20.42 db=2.14 host=greenlight 
+INFO: [48a8f047-ad27-4f07-9eb4-4e3b8a4ce377] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.40 view=11.28 db=1.08 host=greenlight 
+INFO: [111d867a-3c2e-4620-a0c1-81967395df9f] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.48 view=11.30 db=1.09 host=greenlight 
+INFO: [da02d021-7cf0-4f54-b627-ce569a0cbb71] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.11 view=11.70 db=0.62 host=greenlight 
+INFO: [70232559-95de-4095-9d80-c5ed41278e55] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.80 view=16.56 db=0.51 host=greenlight 
+INFO: [f3600868-d25a-4ee3-a761-18d4f99a6fe3] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=15.98 view=11.73 db=0.42 host=greenlight 
+INFO: [a4e15a81-f05c-45c3-b09f-308dae2fe211] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.80 view=11.37 db=0.58 host=greenlight 
+INFO: [ccf78a03-3ac5-4a4a-8ad7-43e29d39db6b] Support: admin@example.com is attempting to login. 
+INFO: [ccf78a03-3ac5-4a4a-8ad7-43e29d39db6b] Support: admin@example.com has successfully logged in. 
+INFO: [ccf78a03-3ac5-4a4a-8ad7-43e29d39db6b] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=218.27 view=0.00 db=1.85 location=https://webinar.gnitdigiconclave.com/b/adm-jfw-4et host=greenlight 
+INFO: [4c4b6235-654c-49e1-b817-24c56631aa21] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=516.82 view=27.51 db=7.76 host=greenlight 
+INFO: [8e10db74-d687-4def-8456-ebf7594103f7] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=226.82 view=13.96 db=1.06 host=greenlight 
+INFO: [dd5a884a-8c20-4a77-956c-bede1695e175] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=229.02 view=11.06 db=3.15 host=greenlight 
+INFO: [0c8a1992-d31f-4b94-8204-2d39cb434cf0] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=458.75 view=12.37 db=3.30 host=greenlight 
+INFO: [1c6cf10b-9306-4d8a-9187-111c5234636e] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=36.17 view=28.19 db=0.64 host=greenlight 
+INFO: [113c9aa5-4b4b-4850-8a30-ceed222cac36] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=228.54 view=15.01 db=1.18 host=greenlight 
+INFO: [0c37ccbc-3985-48ee-abbe-39662299ea67] method=POST path=/b/a64b4fa3c27531c72fe182ce0f76d97d29aa17ae/1ce4d1b85422387f3a7bc83f64a0fdc23cca7201-1589478075054 format=html controller=RecordingsController action=update status=302 duration=264.08 view=0.00 db=1.44 location=https://webinar.gnitdigiconclave.com/b/u/gl-ylsupdqsinfu/recordings host=greenlight 
+INFO: [6a1eaca0-b735-4b41-8413-6f96b33a93f6] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=267.26 view=12.97 db=1.76 host=greenlight 
+INFO: [5fd1cdc8-167b-467d-aca2-052fe0accdf4] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.65 view=10.66 db=1.25 host=greenlight 
+ERROR: [be4fd497-e37c-440a-85b8-4f71c432d5b2] BigBlueButtonException: Impossible to convert XML to hash. Error: Missing end tag for 'hr' (got "body")
+Line: 6
+Position: 169
+Last 80 unconsumed characters:
+ 
+INFO: [be4fd497-e37c-440a-85b8-4f71c432d5b2] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=275.93 view=17.08 db=2.00 host=greenlight 
+INFO: [73583c9b-73b3-4da5-8974-524c04b55be8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=248.87 view=23.07 db=1.63 host=greenlight 
+INFO: [a8b1c977-97a5-4943-a3e3-482d5e8e7030] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=242.89 view=17.91 db=1.60 host=greenlight 
+INFO: [0d9927c2-cd7e-4aba-9cc4-f92085937038] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=233.15 view=10.85 db=3.17 host=greenlight 
+INFO: [86082a31-47e0-4de8-aa0b-f64d936c5842] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=463.92 view=12.56 db=2.36 host=greenlight 
+INFO: [4553b066-297c-4a5e-99b4-beb85b4a7aa9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=228.12 view=15.19 db=1.04 host=greenlight 
+INFO: [57507b2d-245c-4cc7-9e50-82aa7d4433a8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.53 view=10.99 db=1.32 host=greenlight 
+INFO: [fd1fc6b3-2129-442f-8846-32fefe7df280] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.45 view=11.53 db=0.43 host=greenlight 
+INFO: [6417b424-157e-4993-b16b-d7f678174147] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.67 view=11.38 db=0.54 host=greenlight 
+INFO: [1ed1ab19-3184-467b-ae5a-3458fccba433] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=16.90 view=12.15 db=0.55 host=greenlight 
+INFO: [f55ea509-aeaa-47e9-878a-c784fea08bbe] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.86 view=11.05 db=0.44 host=greenlight 
+INFO: [2fa69626-c9f3-4df0-939d-0374bd13b465] Support: admin@example.com is attempting to login. 
+INFO: [2fa69626-c9f3-4df0-939d-0374bd13b465] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=215.22 view=0.00 db=1.59 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [1e90527f-296a-435c-9557-c5e25c1db555] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=15.64 view=11.20 db=0.44 host=greenlight 
+INFO: [779abb82-26b8-4b2e-b4e2-8965e362e756] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.33 view=11.04 db=0.43 host=greenlight 
+INFO: [ae8c31f4-38f4-4ba6-8108-1fd592eacbe3] Support: admin@example.com is attempting to login. 
+INFO: [ae8c31f4-38f4-4ba6-8108-1fd592eacbe3] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=215.36 view=0.00 db=1.54 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [72f81d6c-7757-4474-8ed7-7d5b6abde078] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=19.23 view=14.81 db=0.42 host=greenlight 
+INFO: [205f172c-d676-42a9-9dd4-ecc44ec5cb91] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.36 view=11.11 db=0.52 host=greenlight 
+INFO: [8c0d183f-2053-4e15-83b9-1ee971799b8d] Support: admin@example.com is attempting to login. 
+INFO: [8c0d183f-2053-4e15-83b9-1ee971799b8d] Support: admin@example.com has successfully logged in. 
+INFO: [8c0d183f-2053-4e15-83b9-1ee971799b8d] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=218.58 view=0.00 db=1.81 location=https://webinar.gnitdigiconclave.com/b/adm-jfw-4et host=greenlight 
+INFO: [29958c7f-04b3-48c2-b0ad-9bc394bda132] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=440.17 view=17.00 db=6.02 host=greenlight 
+INFO: [906da0db-3f11-411e-804d-5809f67cd65d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.94 view=11.78 db=1.39 host=greenlight 
+INFO: [a433afa9-1aa2-48ba-a7ce-7fe5c37e2f52] method=GET path=/b/u/gl-ylsupdqsinfu/recordings format=html controller=UsersController action=recordings status=200 duration=264.31 view=12.68 db=1.94 host=greenlight 
+INFO: [77fbbb05-72e2-4018-8138-1e47fbd2a99a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.85 view=12.22 db=1.05 host=greenlight 
+INFO: [d55d8e12-d958-4206-8623-d73056dcec47] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.16 view=11.28 db=1.06 host=greenlight 
+INFO: [e7048d48-4d31-4499-93ca-7b9aa230b303] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=23.19 view=12.41 db=3.44 host=greenlight 
+INFO: [34696e9e-1f85-497e-b13e-fe8c3217041c] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=18.27 view=10.88 db=0.70 host=greenlight 
+INFO: [132ebddf-68f7-4b83-9b51-1cc78bf17e35] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=226.03 view=11.02 db=1.84 host=greenlight 
+INFO: [1d04453e-ebd8-4436-8ba7-b804f62a4b62] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.75 view=11.18 db=1.32 host=greenlight 
+INFO: [1b278843-2e17-4989-94b5-f81cd0c5630c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=246.54 view=14.75 db=7.24 host=greenlight 
+INFO: [65c0052a-5e66-433d-bff0-3c6297aa4a91] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=668.17 view=16.28 db=7.70 host=greenlight 
+INFO: [07050f6f-3753-4fc3-896f-5352eadf15b9] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [197afe6d-9f74-40c5-99fb-c341ff32b65b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.90 view=18.49 db=0.99 host=greenlight 
+INFO: [a792b0d6-bc66-4161-ab78-2e5799e2597d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.71 view=19.14 db=0.95 host=greenlight 
+INFO: [07050f6f-3753-4fc3-896f-5352eadf15b9] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 4c1ab659-3889-44e5-a234-eddfbe741f1d) to Async(default) at 2020-05-15 02:44:11 UTC with arguments: #<GlobalID:0x00005645b6a2b280 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [07050f6f-3753-4fc3-896f-5352eadf15b9] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=1259.77 view=0.00 db=3.90 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [29791f83-bfc5-4b64-b376-1c05d9b56df7] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=229.41 view=11.60 db=1.57 host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [4c1ab659-3889-44e5-a234-eddfbe741f1d] Performing NotifyUserWaitingJob (Job ID: 4c1ab659-3889-44e5-a234-eddfbe741f1d) from Async(default) with arguments: #<GlobalID:0x00005645bae80318 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [4c1ab659-3889-44e5-a234-eddfbe741f1d] Performed NotifyUserWaitingJob (Job ID: 4c1ab659-3889-44e5-a234-eddfbe741f1d) from Async(default) in 8.89ms 
+INFO: [db8c5d1a-770b-45dd-ba7b-37c3ec15825e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.52 view=11.23 db=1.22 host=greenlight 
+INFO: [b1c02c6e-b81b-42e3-8927-e1242461c321] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.49 view=11.21 db=1.04 host=greenlight 
+INFO: [78762520-dd74-40e9-807b-ffcaa1d2c400] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=230.48 view=15.67 db=1.37 host=greenlight 
+INFO: [c0856132-41cb-41c7-8385-92850a5bcd2b] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=756.28 view=32.26 db=2.77 host=greenlight 
+INFO: [09d50ae8-1808-4218-882f-b3b855970e68] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.43 view=11.19 db=0.52 host=greenlight 
+INFO: [cb6ca8d9-8f61-465d-a0e5-bb67213e6653] Support: Sud d is joining room adm-huf-2ya 
+INFO: [cb6ca8d9-8f61-465d-a0e5-bb67213e6653] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=815.90 view=0.00 db=3.18 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [0512a944-35aa-4ca7-9b8d-9964aa462561] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.99 view=15.60 db=0.56 host=greenlight 
+INFO: [4052a083-5c60-4efb-b17c-0cc44f5353e4] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.77 view=11.26 db=0.55 host=greenlight 
+INFO: [4ababb66-2f56-4920-8972-2d201bbdbcbb] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.49 view=11.28 db=1.38 host=greenlight 
+INFO: [2cd7a479-a280-46bc-a560-030346109db9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.97 view=12.84 db=1.08 host=greenlight 
+INFO: [fc41ed31-3311-4a58-a1c1-b6cf4ef235e0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=227.69 view=10.94 db=1.03 host=greenlight 
+INFO: [cd8ea097-7842-4188-b5c2-0a1a7e629081] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.13 view=10.87 db=1.08 host=greenlight 
+INFO: [8161b9ab-2709-4f63-b611-29a4a9ac860a] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=284.17 view=17.87 db=7.42 host=greenlight 
+INFO: [0711a06d-58fc-4dc1-9f50-92ea25936ee6] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=227.53 view=10.89 db=1.10 host=greenlight 
+INFO: [38192dee-3d80-4a30-8b7a-598705adc515] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [38192dee-3d80-4a30-8b7a-598705adc515] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 48c79ae5-bcf5-4a4b-a8ed-1058ae81c421) to Async(default) at 2020-05-15 02:52:32 UTC with arguments: #<GlobalID:0x00005645bab6efa8 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [38192dee-3d80-4a30-8b7a-598705adc515] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=258.15 view=0.00 db=3.00 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [40e7761d-0371-47be-bace-5716fea0dfbb] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=224.27 view=11.23 db=1.04 host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [48c79ae5-bcf5-4a4b-a8ed-1058ae81c421] Performing NotifyUserWaitingJob (Job ID: 48c79ae5-bcf5-4a4b-a8ed-1058ae81c421) from Async(default) with arguments: #<GlobalID:0x00005645ba2861e8 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [48c79ae5-bcf5-4a4b-a8ed-1058ae81c421] Performed NotifyUserWaitingJob (Job ID: 48c79ae5-bcf5-4a4b-a8ed-1058ae81c421) from Async(default) in 0.11ms 
+INFO: [e8014b04-7590-4e7d-bd89-6d50a1a86fb4] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.75 view=11.60 db=1.04 host=greenlight 
+INFO: [0e3562dd-707a-4e44-953b-7e99592ba568] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=380.03 view=22.46 db=30.22 host=greenlight 
+INFO: [c71f16d5-45c5-4f51-87ca-2f4233c0e911] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=232.16 view=18.66 db=1.27 host=greenlight 
+INFO: [3a2c35a1-2fc8-4dac-bf3d-37867f77b6d8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=227.84 view=12.98 db=1.64 host=greenlight 
+INFO: [c9661d57-dcea-40ce-812d-1fd7d61a5784] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=227.05 view=11.88 db=1.63 host=greenlight 
+INFO: [76d443af-c774-4f15-9dc1-dba3a1dd7338] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=577.81 view=40.10 db=11.03 host=greenlight 
+INFO: [9326298d-48ee-4725-b4d1-8d4a20383df6] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=253.74 view=11.42 db=6.56 host=greenlight 
+INFO: [e078a602-2a07-4313-8f71-8e38df085c47] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [e078a602-2a07-4313-8f71-8e38df085c47] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: b9e7cef1-335e-463f-bd32-e43d94904a20) to Async(default) at 2020-05-15 03:18:04 UTC with arguments: #<GlobalID:0x0000556a4aafd818 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [e078a602-2a07-4313-8f71-8e38df085c47] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=1037.84 view=0.00 db=3.45 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [343acb61-7051-413f-b3a7-8d6260cd87dd] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=250.88 view=19.90 db=2.07 host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [b9e7cef1-335e-463f-bd32-e43d94904a20] Performing NotifyUserWaitingJob (Job ID: b9e7cef1-335e-463f-bd32-e43d94904a20) from Async(default) with arguments: #<GlobalID:0x0000556a48a2a910 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [b9e7cef1-335e-463f-bd32-e43d94904a20] Performed NotifyUserWaitingJob (Job ID: b9e7cef1-335e-463f-bd32-e43d94904a20) from Async(default) in 9.09ms 
+INFO: [4f177c0d-4566-4d5e-a1cd-d343d9018d79] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=232.17 view=17.12 db=1.66 host=greenlight 
+INFO: [c963ba36-399e-4748-95ff-4975cfe5f338] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=233.90 view=11.32 db=5.18 host=greenlight 
+INFO: [bfd65f5b-003d-42f7-98ad-d454c5e0f55a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=226.82 view=11.95 db=1.67 host=greenlight 
+INFO: [9c0621c9-eac4-4d01-8bd2-87fda4efc4ac] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=229.61 view=15.31 db=1.63 host=greenlight 
+INFO: [506e2104-446b-4a47-98bb-62beffe759cc] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=476.69 view=19.88 db=10.68 host=greenlight 
+INFO: [9fc261c9-fc65-4b44-97dd-87bfcbe2b3af] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=261.84 view=11.65 db=17.01 host=greenlight 
+INFO: [3a0c7797-ccad-4b04-8244-765e0f62f03b] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [3a0c7797-ccad-4b04-8244-765e0f62f03b] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 1f079bfd-eb08-46fd-9fcf-412e890e9e40) to Async(default) at 2020-05-15 03:53:35 UTC with arguments: #<GlobalID:0x0000556a478b9cd0 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [3a0c7797-ccad-4b04-8244-765e0f62f03b] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=975.87 view=0.00 db=3.62 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [fc7f5307-02e8-4d0f-987a-eb05afabce68] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=230.38 view=15.34 db=1.47 host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [1f079bfd-eb08-46fd-9fcf-412e890e9e40] Performing NotifyUserWaitingJob (Job ID: 1f079bfd-eb08-46fd-9fcf-412e890e9e40) from Async(default) with arguments: #<GlobalID:0x0000556a4b5610c0 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [1f079bfd-eb08-46fd-9fcf-412e890e9e40] Performed NotifyUserWaitingJob (Job ID: 1f079bfd-eb08-46fd-9fcf-412e890e9e40) from Async(default) in 0.16ms 
+INFO: [d6184d13-a36f-4360-a578-73011580cc71] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=226.51 view=11.62 db=1.68 host=greenlight 
+INFO: [f77315ca-05a9-4734-b289-98268184d568] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=239.59 view=11.81 db=1.57 host=greenlight 
+INFO: [6a6ac75e-66d0-4a9a-8218-dbcc32beeaf7] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=229.56 view=15.30 db=1.36 host=greenlight 
+INFO: [90717e8c-6ff0-4563-8c70-0a128494c0bf] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=43.89 view=28.74 db=3.91 host=greenlight 
+INFO: [649b7262-817d-4ffc-a828-c6efd80f619d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=22.90 view=11.74 db=3.51 host=greenlight 
+INFO: [db13451e-8ae9-46f4-92ac-3645f73d2726] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.93 view=14.50 db=0.59 host=greenlight 
+INFO: [c603f5b5-e0b6-44a2-9bb6-c9b3f4e140c6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=19.08 view=13.33 db=0.58 host=greenlight 
+INFO: [81aaa739-11d6-4e03-8cf1-686c1cbf6666] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.15 view=11.65 db=0.61 host=greenlight 
+INFO: [17c0b7ce-a680-49dd-893c-7c13f5b8d4e4] Support: admin@example.com is attempting to login. 
+INFO: [17c0b7ce-a680-49dd-893c-7c13f5b8d4e4] Support: admin@example.com has successfully logged in. 
+INFO: [17c0b7ce-a680-49dd-893c-7c13f5b8d4e4] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=221.06 view=0.00 db=2.46 location=https://webinar.gnitdigiconclave.com/b/adm-jfw-4et host=greenlight 
+INFO: [49e645a7-c43f-4537-9dc5-c9ada8500db4] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=453.32 view=17.84 db=6.61 host=greenlight 
+INFO: [b5d0658c-52f0-45b6-adb5-f674bc098fa3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.45 view=11.97 db=1.16 host=greenlight 
+INFO: [87e2060e-a440-4ccc-a845-c6a4f543cdfc] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [87e2060e-a440-4ccc-a845-c6a4f543cdfc] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 6f3f8666-92dc-47f6-8af9-43e7e62c0761) to Async(default) at 2020-05-15 04:19:07 UTC with arguments: #<GlobalID:0x0000556a488bc2b8 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [87e2060e-a440-4ccc-a845-c6a4f543cdfc] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=958.20 view=0.00 db=3.34 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [262f9a58-da69-4d84-9c8d-cc5fd2b44b8a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=259.12 view=30.04 db=1.96 host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [6f3f8666-92dc-47f6-8af9-43e7e62c0761] Performing NotifyUserWaitingJob (Job ID: 6f3f8666-92dc-47f6-8af9-43e7e62c0761) from Async(default) with arguments: #<GlobalID:0x0000556a4b584fc0 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [6f3f8666-92dc-47f6-8af9-43e7e62c0761] Performed NotifyUserWaitingJob (Job ID: 6f3f8666-92dc-47f6-8af9-43e7e62c0761) from Async(default) in 0.11ms 
+INFO: [513ec006-93e1-4b87-8590-ab4371d699f2] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=226.02 view=11.90 db=1.51 host=greenlight 
+INFO: [ae601ad6-7303-45ee-9978-34b31243a534] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=23.65 view=12.57 db=3.47 host=greenlight 
+INFO: [f2bd3b19-afc6-4ae1-83de-a930e75bb7db] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.39 view=11.23 db=0.60 host=greenlight 
+INFO: [47b34ccb-f1c0-44a0-a84f-e5f074f8c32f] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=16.67 view=12.04 db=0.59 host=greenlight 
+INFO: [121ddde4-4439-4532-bf53-3fd8988cfb2d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.29 view=14.99 db=0.60 host=greenlight 
+INFO: [3a3a18fe-5236-4fe4-804e-1155abf10318] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.00 view=11.37 db=0.76 host=greenlight 
+WARN: [32e1852d-5128-4900-a298-3e269dfc2374] Can't verify CSRF token authenticity. 
+INFO: [32e1852d-5128-4900-a298-3e269dfc2374] method=POST path=/b/u/login format=html controller=SessionsController action=create status=422 error='ActionController::InvalidAuthenticityToken: ActionController::InvalidAuthenticityToken' duration=4.59 view=0.00 db=0.52 host=greenlight 
+FATAL: [32e1852d-5128-4900-a298-3e269dfc2374]    
+FATAL: [32e1852d-5128-4900-a298-3e269dfc2374] ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken): 
+FATAL: [32e1852d-5128-4900-a298-3e269dfc2374]    
+FATAL: [32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:179:in `block (2 levels) in halting_and_conditional'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:180:in `block in halting_and_conditional'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `block in invoke_before'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `each'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `invoke_before'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:131:in `run_callbacks'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/callbacks.rb:41:in `process_action'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/rescue.rb:22:in `process_action'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications.rb:168:in `block in instrument'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications.rb:168:in `instrument'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.3/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/base.rb:134:in `process'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionview-5.2.3/lib/action_view/rendering.rb:32:in `process'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb:191:in `dispatch'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb:252:in `dispatch'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:35:in `each'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:35:in `serve'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:840:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/omniauth-1.9.0/lib/omniauth/builder.rb:64:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/http_accept_language-2.1.1/lib/http_accept_language/middleware.rb:14:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/tempfile_reaper.rb:15:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/etag.rb:27:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/conditional_get.rb:40:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/head.rb:12:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/session/abstract/id.rb:266:in `context'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/session/abstract/id.rb:260:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:98:in `run_callbacks'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[32e1852d-5128-4900-a298-3e269dfc2374] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+WARN: [32e1852d-5128-4900-a298-3e269dfc2374] Can't verify CSRF token authenticity. 
+INFO: [32e1852d-5128-4900-a298-3e269dfc2374] method=POST path=/b/422 format=html controller=RoomsController action=join status=422 error='ActionController::InvalidAuthenticityToken: ActionController::InvalidAuthenticityToken' duration=2.59 view=0.00 db=0.04 host=greenlight 
+INFO: [a58189e3-9605-41d3-b615-63f199e60920] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=15.63 view=11.70 db=0.41 host=greenlight 
+WARN: [087bc32d-cae1-490c-8b02-7eb07e64b227] Can't verify CSRF token authenticity. 
+INFO: [087bc32d-cae1-490c-8b02-7eb07e64b227] method=POST path=/b/u/login format=html controller=SessionsController action=create status=422 error='ActionController::InvalidAuthenticityToken: ActionController::InvalidAuthenticityToken' duration=4.71 view=0.00 db=0.51 host=greenlight 
+FATAL: [087bc32d-cae1-490c-8b02-7eb07e64b227]    
+FATAL: [087bc32d-cae1-490c-8b02-7eb07e64b227] ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken): 
+FATAL: [087bc32d-cae1-490c-8b02-7eb07e64b227]    
+FATAL: [087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:179:in `block (2 levels) in halting_and_conditional'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:180:in `block in halting_and_conditional'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `block in invoke_before'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `each'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `invoke_before'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:131:in `run_callbacks'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/callbacks.rb:41:in `process_action'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/rescue.rb:22:in `process_action'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications.rb:168:in `block in instrument'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications.rb:168:in `instrument'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.3/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/base.rb:134:in `process'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionview-5.2.3/lib/action_view/rendering.rb:32:in `process'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb:191:in `dispatch'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb:252:in `dispatch'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:35:in `each'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:35:in `serve'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:840:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/omniauth-1.9.0/lib/omniauth/builder.rb:64:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/http_accept_language-2.1.1/lib/http_accept_language/middleware.rb:14:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/tempfile_reaper.rb:15:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/etag.rb:27:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/conditional_get.rb:40:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/head.rb:12:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/session/abstract/id.rb:266:in `context'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/session/abstract/id.rb:260:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:98:in `run_callbacks'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[087bc32d-cae1-490c-8b02-7eb07e64b227] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+WARN: [087bc32d-cae1-490c-8b02-7eb07e64b227] Can't verify CSRF token authenticity. 
+INFO: [087bc32d-cae1-490c-8b02-7eb07e64b227] method=POST path=/b/422 format=html controller=RoomsController action=join status=422 error='ActionController::InvalidAuthenticityToken: ActionController::InvalidAuthenticityToken' duration=2.66 view=0.00 db=0.05 host=greenlight 
+INFO: [5624fa3c-45a7-426b-a31f-8e00054d0704] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.91 view=15.70 db=0.42 host=greenlight 
+WARN: [c73333e9-83f3-4bad-8ef8-2c26b233690a] Can't verify CSRF token authenticity. 
+INFO: [c73333e9-83f3-4bad-8ef8-2c26b233690a] method=POST path=/b/u/login format=html controller=SessionsController action=create status=422 error='ActionController::InvalidAuthenticityToken: ActionController::InvalidAuthenticityToken' duration=5.12 view=0.00 db=0.57 host=greenlight 
+FATAL: [c73333e9-83f3-4bad-8ef8-2c26b233690a]    
+FATAL: [c73333e9-83f3-4bad-8ef8-2c26b233690a] ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken): 
+FATAL: [c73333e9-83f3-4bad-8ef8-2c26b233690a]    
+FATAL: [c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:179:in `block (2 levels) in halting_and_conditional'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:180:in `block in halting_and_conditional'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `block in invoke_before'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `each'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:513:in `invoke_before'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:131:in `run_callbacks'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/callbacks.rb:41:in `process_action'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/rescue.rb:22:in `process_action'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications.rb:168:in `block in instrument'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/notifications.rb:168:in `instrument'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.3/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/abstract_controller/base.rb:134:in `process'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionview-5.2.3/lib/action_view/rendering.rb:32:in `process'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb:191:in `dispatch'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb:252:in `dispatch'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:35:in `each'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb:35:in `serve'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/routing/route_set.rb:840:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/omniauth-1.9.0/lib/omniauth/builder.rb:64:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/http_accept_language-2.1.1/lib/http_accept_language/middleware.rb:14:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/tempfile_reaper.rb:15:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/etag.rb:27:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/conditional_get.rb:40:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/head.rb:12:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/session/abstract/id.rb:266:in `context'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/session/abstract/id.rb:260:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb:98:in `run_callbacks'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[c73333e9-83f3-4bad-8ef8-2c26b233690a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+WARN: [c73333e9-83f3-4bad-8ef8-2c26b233690a] Can't verify CSRF token authenticity. 
+INFO: [c73333e9-83f3-4bad-8ef8-2c26b233690a] method=POST path=/b/422 format=html controller=RoomsController action=join status=422 error='ActionController::InvalidAuthenticityToken: ActionController::InvalidAuthenticityToken' duration=2.71 view=0.00 db=0.06 host=greenlight 
+INFO: [3a32e700-7763-4f47-a1bf-b31f1cd47eca] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=32.80 view=28.26 db=0.56 host=greenlight 
+FATAL: [e048cfee-59e0-4622-9654-6844a77e2977]    
+FATAL: [e048cfee-59e0-4622-9654-6844a77e2977] ActionController::RoutingError (No route matches [GET] "/u/login"): 
+FATAL: [e048cfee-59e0-4622-9654-6844a77e2977]    
+FATAL: [e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[e048cfee-59e0-4622-9654-6844a77e2977] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+INFO: [e048cfee-59e0-4622-9654-6844a77e2977] method=GET path=/b/404 format=html controller=ErrorsController action=not_found status=404 duration=52.79 view=45.07 db=0.56 host=greenlight 
+INFO: [853a2d15-76f7-4d65-ab8c-ff731d38aeab] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.69 view=12.33 db=0.55 host=greenlight 
+FATAL: [dc4f0fd7-e227-4711-8c1f-302ea2b9809a]    
+FATAL: [dc4f0fd7-e227-4711-8c1f-302ea2b9809a] ActionController::RoutingError (No route matches [GET] "/u/login"): 
+FATAL: [dc4f0fd7-e227-4711-8c1f-302ea2b9809a]    
+FATAL: [dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[dc4f0fd7-e227-4711-8c1f-302ea2b9809a] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+INFO: [dc4f0fd7-e227-4711-8c1f-302ea2b9809a] method=GET path=/b/404 format=html controller=ErrorsController action=not_found status=404 duration=16.92 view=12.83 db=0.42 host=greenlight 
+INFO: [f4c98107-5e58-4fd7-be32-fa3bcc05e84b] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.74 view=13.10 db=0.56 host=greenlight 
+INFO: [a557e6a8-9fe0-4e87-b212-3cb7299d5406] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=19.37 view=14.98 db=0.44 host=greenlight 
+INFO: [4786922b-3c7e-43b7-895c-88e63dcface5] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=316.65 view=20.69 db=2.40 host=greenlight 
+INFO: [5473ba6a-9918-4d53-b0b3-26ff760b5979] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.40 view=12.10 db=0.46 host=greenlight 
+INFO: [d4569d79-7bd5-4ee8-bf94-314b1da3db19] Support: PD is joining room adm-huf-2ya 
+INFO: [d4569d79-7bd5-4ee8-bf94-314b1da3db19] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=804.44 view=0.00 db=2.87 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [a7a6787c-8b5f-4924-af06-76c9a27ec4e9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=28.69 view=23.23 db=0.62 host=greenlight 
+INFO: [7b723827-75e5-458a-b211-6bed29151c52] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=131.61 view=23.18 db=1.87 host=greenlight 
+INFO: [96664262-4d1c-4a8d-8f2d-7e6769a71922] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=127.15 view=14.19 db=1.69 host=greenlight 
+INFO: [8984f5c2-e51e-4129-adfb-c01412a28af2] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=17.06 view=13.10 db=0.42 host=greenlight 
+INFO: [eaa62225-47ab-4553-8cab-48a16c689366] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.89 view=12.89 db=3.90 host=greenlight 
+FATAL: [d92c30a3-7e37-4abb-a294-1ca39c6002aa]    
+FATAL: [d92c30a3-7e37-4abb-a294-1ca39c6002aa] ActionController::RoutingError (No route matches [GET] "/u/login"): 
+FATAL: [d92c30a3-7e37-4abb-a294-1ca39c6002aa]    
+FATAL: [d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[d92c30a3-7e37-4abb-a294-1ca39c6002aa] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+INFO: [d92c30a3-7e37-4abb-a294-1ca39c6002aa] method=GET path=/b/404 format=html controller=ErrorsController action=not_found status=404 duration=19.30 view=14.83 db=0.59 host=greenlight 
+INFO: [a43dca2d-b18c-4e67-b3c8-061ef4080d43] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.04 view=11.89 db=0.56 host=greenlight 
+FATAL: [b473dc97-f300-4f8c-a63a-dd39d2e1415c]    
+FATAL: [b473dc97-f300-4f8c-a63a-dd39d2e1415c] ActionController::RoutingError (No route matches [GET] "/u/login"): 
+FATAL: [b473dc97-f300-4f8c-a63a-dd39d2e1415c]    
+FATAL: [b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/lograge-0.11.2/lib/lograge/rails_ext/rack/logger.rb:15:in `call_app'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/request_store-1.4.1/lib/request_store/middleware.rb:19:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:74:in `block in call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `each'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/rack-2.2.2/lib/rack/urlmap.rb:58:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+[b473dc97-f300-4f8c-a63a-dd39d2e1415c] vendor/bundle/ruby/2.5.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread' 
+INFO: [b473dc97-f300-4f8c-a63a-dd39d2e1415c] method=GET path=/b/404 format=html controller=ErrorsController action=not_found status=404 duration=67.11 view=36.76 db=8.17 host=greenlight 
+INFO: [65063b64-eb65-4772-bea0-a718af78ba53] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=24.45 view=19.69 db=0.60 host=greenlight 
+INFO: [ec7baa52-0a6d-4a96-b90a-f8eb56dca518] method=GET path=/b/adm-huf-2ya format=html controller=RoomsController action=show status=200 duration=357.13 view=21.39 db=8.00 host=greenlight 
+INFO: [a870b03e-6f27-43f6-b976-df90eef85c74] Support: Subjaidtya is joining room adm-huf-2ya 
+INFO: [a870b03e-6f27-43f6-b976-df90eef85c74] method=POST path=/b/adm-huf-2ya format=html controller=RoomsController action=join status=302 duration=788.46 view=0.00 db=3.52 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [1c387520-9ab5-4b72-b285-221cd6530347] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.78 view=16.58 db=0.52 host=greenlight 
+INFO: [4a5227dd-792e-41a4-b659-1282dfab6845] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=18.32 view=13.52 db=0.63 host=greenlight 
+INFO: [a3addaec-b771-4c72-8e0d-295eb548ece6] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=23.72 view=11.80 db=3.83 host=greenlight 
+INFO: [ab27adde-63a3-41d3-9f00-c859d458d5c9] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=29.16 view=17.33 db=3.88 host=greenlight 
+INFO: [f9974a7f-4010-4d7d-8e71-95f8ea8334db] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=18.32 view=12.98 db=0.75 host=greenlight 
+INFO: [7f13f599-b819-43dc-a6c2-6ead73f4af68] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=16.68 view=12.09 db=0.71 host=greenlight 
+INFO: [bbfa3a69-da4d-4cb9-afc6-c491524fbc2a] Support: admin@example.com is attempting to login. 
+INFO: [bbfa3a69-da4d-4cb9-afc6-c491524fbc2a] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=216.35 view=0.00 db=2.07 location=https://webinar.gnitdigiconclave.com/b/signin host=greenlight 
+INFO: [89d3e7fb-66c4-4029-967a-5ac3e4512ce1] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=17.82 view=13.36 db=0.58 host=greenlight 
+INFO: [01dbce30-1ef6-435e-af0f-dace2caac48e] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=20.29 view=16.10 db=0.51 host=greenlight 
+INFO: [585ba4b6-a8ba-4f43-99df-55713c218ff9] Support: admin@example.com is attempting to login. 
+INFO: [585ba4b6-a8ba-4f43-99df-55713c218ff9] Support: admin@example.com has successfully logged in. 
+INFO: [585ba4b6-a8ba-4f43-99df-55713c218ff9] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=218.85 view=0.00 db=2.06 location=https://webinar.gnitdigiconclave.com/b/adm-jfw-4et host=greenlight 
+INFO: [ea6904e0-a1ad-4196-b28c-4ca952854379] method=GET path=/b/adm-jfw-4et format=html controller=RoomsController action=show status=200 duration=315.28 view=26.31 db=9.68 host=greenlight 
+INFO: [c253943f-d777-44d1-aa15-38a3178815d0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.58 view=12.35 db=1.18 host=greenlight 
+INFO: [ed61937c-f71c-4b38-a8a6-63a1cdaee9b3] Support: admin@example.com is starting room adm-jfw-4et 
+INFO: [ed61937c-f71c-4b38-a8a6-63a1cdaee9b3] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: 1a1f06d7-8444-45f4-881d-ff717d91df7b) to Async(default) at 2020-05-15 05:34:37 UTC with arguments: #<GlobalID:0x0000561aef458de0 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ed61937c-f71c-4b38-a8a6-63a1cdaee9b3] method=POST path=/b/adm-jfw-4et/start format=html controller=RoomsController action=start status=302 duration=270.82 view=0.00 db=3.53 location=https://webinar.gnitdigiconclave.com/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [1a1f06d7-8444-45f4-881d-ff717d91df7b] Performing NotifyUserWaitingJob (Job ID: 1a1f06d7-8444-45f4-881d-ff717d91df7b) from Async(default) with arguments: #<GlobalID:0x0000561aef4437b0 @uri=#<URI::GID gid://greenlight/Room/3>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [1a1f06d7-8444-45f4-881d-ff717d91df7b] Performed NotifyUserWaitingJob (Job ID: 1a1f06d7-8444-45f4-881d-ff717d91df7b) from Async(default) in 2.66ms 
+INFO: [8b69ddbb-b650-4153-8ce3-0c024a369b2c] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.55 view=12.57 db=1.17 host=greenlight 
+INFO: [063465b5-b644-4f50-931d-efae4063375d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=225.42 view=11.82 db=1.19 host=greenlight 
